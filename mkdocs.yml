@@ -7,12 +7,12 @@ theme:
   favicon: Simbolo.png
   palette: 
     - scheme: default
-      primary: #B0CFCE
+      primary: '#B0CFCE'
       toggle:
         icon: material/weather-night
         name: Modo noturno
     - scheme: slate
-      primary: #B0CFCE
+      primary: '#B0CFCE'
       toggle:
         icon: material/weather-sunny
         name: Modo claro
