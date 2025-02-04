@@ -1,4 +1,4 @@
-site_name: Guia de utilização - Prisma
+site_name: Guia de utilização - Prisma.
 site_url: https://mydomain.org/guia_utilizacao
 theme:
   name:  material   #readthedocs
