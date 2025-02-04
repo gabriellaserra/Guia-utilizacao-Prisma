@@ -1,7 +1,7 @@
 site_name: Guia de utilização - Prisma
 site_url: https://mydomain.org/guia_utilizacao
 theme:
-  name:  readthedocs #material   #readthedocs
+  name:  material   #readthedocs
   language: pt-BR
   logo: Simbolo.png
   favicon: Simbolo.png
