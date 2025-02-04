@@ -5,14 +5,22 @@ theme:
   language: pt-BR
   logo: Simbolo.png
   favicon: Simbolo.png
-  palette: 
+  palette:  custom
+  # Definindo as cores personalizadas
+  custom_dir: theme  # Caso queira adicionar arquivos CSS personalizados
+  extra_css:
+    - 'css/custom.css'  # Arquivo de CSS customizado (caso precise)
+  root:
+    --md-primary-fg-color:        '#B0CFCE';  # Cor principal do texto
+    --md-primary-fg-color--light: '#B0CFCE';  # Cor principal no modo claro
+    --md-primary-fg-color--dark:  '#B0CFCE';  # Cor principal no modo escuro
     - scheme: default
-      primary: 'cyan'
+      #primary: 'cyan'
       toggle:
         icon: material/weather-night
         name: Modo noturno
     - scheme: slate
-      primary: 'cyan'
+      #primary: 'cyan'
       toggle:
         icon: material/weather-sunny
         name: Modo claro
