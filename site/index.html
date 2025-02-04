@@ -1,0 +1,826 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://mydomain.org/guia_utilizacao/">
+      
+      
+      
+        <link rel="next" href="sobre/">
+      
+      
+      <link rel="icon" href="Simbolo.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.50">
+    
+    
+      
+        <title>Guia de utilização - Prisma</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.a40c8224.min.css">
+      
+        
+        <link rel="stylesheet" href="assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#bem-vindo-ao-guia-de-utilizacao-do-prisma" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="." title="Guia de utilização - Prisma" class="md-header__button md-logo" aria-label="Guia de utilização - Prisma" data-md-component="logo">
+      
+  <img src="Simbolo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Guia de utilização - Prisma
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Início
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="cyan" data-md-color-accent="indigo"  aria-label="Modo noturno"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Modo noturno" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3zm3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95zm-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="cyan" data-md-color-accent="indigo"  aria-label="Modo claro"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Modo claro" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5s-1.65.15-2.39.42zM3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29zm.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14zM20.65 7l-1.77 3.79a7.02 7.02 0 0 0-2.38-4.15zm-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29zM12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="." title="Guia de utilização - Prisma" class="md-nav__button md-logo" aria-label="Guia de utilização - Prisma" data-md-component="logo">
+      
+  <img src="Simbolo.png" alt="logo">
+
+    </a>
+    Guia de utilização - Prisma
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="." class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Início
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-inicial-do-prisma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página inicial do Prisma
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página inicial do Prisma">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simulador-de-cenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Simulador de Cenários
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Simulador de Cenários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gerar-cenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gerar Cenário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abrir-cenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abrir Cenário
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Abrir Cenário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#painel-de-materiais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Painel de Materiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#painel-de-servicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Painel de Serviços
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acessar-escopo-atual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Acessar escopo atual
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#painel-de-publicacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Painel de publicações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visao-operacional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão operacional
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visao-medio-prazo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão médio-prazo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visao-contratual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão contratual
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Sobre
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            Sobre
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="sobre/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Referências
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pagina-inicial-do-prisma" class="md-nav__link">
+    <span class="md-ellipsis">
+      Página inicial do Prisma
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Página inicial do Prisma">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simulador-de-cenarios" class="md-nav__link">
+    <span class="md-ellipsis">
+      Simulador de Cenários
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Simulador de Cenários">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#gerar-cenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Gerar Cenário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#abrir-cenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Abrir Cenário
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Abrir Cenário">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#painel-de-materiais" class="md-nav__link">
+    <span class="md-ellipsis">
+      Painel de Materiais
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#painel-de-servicos" class="md-nav__link">
+    <span class="md-ellipsis">
+      Painel de Serviços
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#acessar-escopo-atual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Acessar escopo atual
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#painel-de-publicacoes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Painel de publicações
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visao-operacional" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão operacional
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visao-medio-prazo" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão médio-prazo
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visao-contratual" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visão contratual
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="bem-vindo-ao-guia-de-utilizacao-do-prisma">Bem-Vindo ao guia de utilização do Prisma</h1>
+<h2 id="pagina-inicial-do-prisma">Página inicial do Prisma</h2>
+<p>O usuário poderá escolher entre as três opções de fluxo de trabalho disponíveis na página inicial, sendo duas delas referentes ao simulador de cenários e outro referente ao escopo atual.</p>
+<p><img alt="alt text" src="image.png" /></p>
+<h3 id="simulador-de-cenarios">Simulador de Cenários</h3>
+<h4 id="gerar-cenario">Gerar Cenário</h4>
+<p>Ao clicar em gerar cenário, o usuário escolherá entre as opções de criar um cenário a partir dos dados da última publicação de escopo, que é uma foto atualizada quinzenalmente, ou do escopo atual que é um filme atualizado diariamente, cuja fonte de integração é o Cronoweb Recursos. </p>
+<p>Um cenário seria um cronograma referente a última atualização da fonte escolhida na tela de gerar cenário, que permite ao usuário visualizar todas as tarefas que estão sendo executadas a partir de hoje.  </p>
+<p>Nesta tela, temos ainda as informações dos dados do cenário, que são: origem, data de criação, criado por e fonte.</p>
+<p>Além disso, terá um espaço disponível para que o usuário escolha o nome do cenário (sendo essa uma informação obrigatória), a descrição do cenário (informação opcional), a data de criação (data na qual o usuário está gerando o cenário) e o horizonte, que por padrão estará em 24 meses, mas poderá ser alterado pelo usuário.</p>
+<p><img alt="alt text" src="image-1.png" /></p>
+<h4 id="abrir-cenario">Abrir Cenário</h4>
+<p>Ao clicar em abrir cenário, o usuário terá acesso a uma lista de cenários já criados, com o nome do cenário, data de criação e criador.</p>
+<p><img alt="alt text" src="image-2.png" /></p>
+<p>Ao passar o mouse por cima de um dos cenários, o usuário poderá clicar nas seguintes opções:</p>
+<ul>
+<li>Visualizar cenário: nesta opção o usuário terá acesso a mais informações a respeito do cenário selecionado como descrição, origem, fonte, data de início e horizonte.</li>
+</ul>
+<p>Caso o usuário seja o criador do cenário ele também poderá selecionar os ícones de:</p>
+<ul>
+<li>
+<p>Excluir cenário</p>
+</li>
+<li>
+<p>Editar cenário: nesta opção o usuário poderá editar apenas o nome e a descrição do seu próprio cenário.</p>
+</li>
+</ul>
+<p><img alt="alt text" src="image-3.png" /></p>
+<p>Ao clicar em qualquer um dos cenários irá abrir um cronograma, com os dados referentes a fonte escolhida pelo criador na tela de gerar cenário (escopo atual ou última publicação de escopo), neste cronograma é possível observar que as caixas que representam tarefas são representadas pelas seguintes cores:</p>
+<ul>
+<li>
+<p>Cinza- Não calculado</p>
+</li>
+<li>
+<p>Vermelho- Não atende</p>
+</li>
+<li>
+<p>Verde – Atende </p>
+</li>
+</ul>
+<p><img alt="alt text" src="image-4.png" /></p>
+<p>Essas cores representam o atendimento da tarefa em relação aos recursos selecionados no cronograma, considerando sempre o pior caso. </p>
+<p>Essa seleção de recursos é feita através da função de Visualizar Atendimento que permite ao usuário selecionar subconjuntos de recursos de interesse para análise, refletindo, portanto, na cor da tarefa.</p>
+<p>Uma tarefa é composta por atividades, se ao menos uma atividade não consegue ser atendida então toda a tarefa é classificada como não atende.</p>
+<p>Além disso, essas tarefas estão distribuídas em diferentes linhas, em que cada uma das linhas corresponde a uma determinada sonda, cujo nome se encontra do lado esquerda da tela.</p>
+<p>A tela dos cenários também conta com uma aba lateral que contém 3 ícones: cronograma (onde se encontram as sondas e as tarefas com suas determinadas cores), painel de materiais e painel de serviços. Cada um desses painéis será descrito mais detalhadamente em seguida.</p>
+<p>Além da visualização do cronograma e das cores referentes a cada tarefa, esta tela também possui as seguintes funcionalidades:</p>
+<ul>
+<li>
+<p>Informação: essa funcionalidade apresenta ao usuário informações referentes ao cache como “descrição”, “atualizado em”, “oferta de materiais atualizada em” e “disponibilidade de serviços atualizada em” com relação ao escopo atual.</p>
+</li>
+<li>
+<p>Botão incluir contingentes: essa funcionalidade permite ao usuário escolher incluir ou não os recursos contingentes. Sendo recurso contingente um recurso que pode ser utilizado caso o original não esteja disponível para uso.</p>
+</li>
+<li>
+<p>Visualizar atendimentos:  essa funcionalidade permite ao usuário escolher entre as opções de visualizar todos os recursos, todos os materiais, todos os serviços ou selecionar apenas recursos de seu interesse. Caso essa última opção seja selecionada, um pop up será aberto na tela para que o usuário selecione os recursos desejados. Vale ressaltar que ao escolher selecionar todos os materiais, aparecerá acima do ícone de visualizar atendimento um badge com a letra M, caso seja selecionada a opção de todos os serviços o badge aparecerá com a letra S e caso o usuário escolha a opção de selecionar apenas recursos de seu interesse o badge contará com a quantidade de recursos selecionados. Caso a opção de todos os recursos seja escolhida, o ícone não apresentará nenhum badge.</p>
+</li>
+<li>
+<p>Zoom:  essa funcionalidade aumenta ou diminui o horizonte visualizado na tela do cronograma.</p>
+</li>
+<li>
+<p>Resumo: essa funcionalidade abre uma aba lateral de resumo na qual temos as informações da quantidade total de tarefas, e quantidade e percentual de tarefas atendidas, não atendidas e não calculadas. Além disso, essa aba também funciona como um tipo de filtro, no qual as tarefas que não estão selecionadas ficam esmaecidas.</p>
+</li>
+<li>
+<p>Filtro: funcionalidade que permite ao usuário filtrar as tarefas por cluster, bacia, projeto, tipo de serviço, tipo de tarefa e atendimento padrão. Vale ressaltar que podem ser selecionadas mais de uma opção nesses filtros e os filtros podem ser sobrepostos.
+Vale ressaltar ainda que, nesta tela o criador do cenário terá a possibilidade de movimentar as tarefas para diferentes datas e recalcular as classificações dessas tarefas através do botão de recálculo que se localiza do lado direito do botão de incluir contingentes. Este ícone terá junto dele um badge sempre que alguma modificação for feita no cenário indicando que é necessário recalcular novamente para obter as classificações atualizadas das tarefas.</p>
+</li>
+</ul>
+<h5 id="painel-de-materiais">Painel de Materiais</h5>
+<p>Ao selecionar a opção do painel de materiais, irá abrir um pop up na tela para que o usuário escolha os materiais de interesse.</p>
+<p>Ao selecioná-los e clicar em “aplicar”, abrirá uma tela dividida em demanda e oferta, ao lado desses títulos temos a fonte de cada um deles, de onde são tiradas as informações. </p>
+<p>No card de demanda temos as colunas PG, Tipo Tarefa, Sonda, ID Recurso, atividade, data de necessidade, quantidade demandada, contingente e status.</p>
+<p>Enquanto no card de oferta temos as informações de estoque, pedido e contrato.</p>
+<p>Este painel é essencial para que o usuário consiga identificar as demandas e ofertas dos materiais de seu interesse, entendendo as ofertas disponíveis para este material e o motivo de algumas demandas referentes a ele não serem atendidas.</p>
+<p><img alt="alt text" src="image-5.png" /></p>
+<p><img alt="alt text" src="image-6.png" /></p>
+<p><img alt="alt text" src="image-7.png" /></p>
+<h5 id="painel-de-servicos">Painel de Serviços</h5>
+<p>Ao selecionar a opção do painel de serviços, irá abrir um pop up na tela para que o usuário escolha os serviços de interesse.</p>
+<p>Ao selecioná-los e aplicar, abrirá uma tela dividida em demanda e oferta, ao lado desses títulos temos a fonte de cada um deles, de onde são tiradas as informações. </p>
+<p>No card de demanda temos as colunas PG, Atendimento padrão, Tipo Tarefa, Sonda, atividade, período de necessidade, quantidade demandada, contingente e status.</p>
+<p>Enquanto no card de oferta temos as colunas data início, data fim, atendimento padrão e quantidade disponível.</p>
+<p>Este painel é essencial para que o usuário consiga identificar as demandas e ofertas dos serviços de seu interesse, entendendo as ofertas disponíveis para esse serviço e o motivo de algumas demandas referentes a ele não serem atendidas.</p>
+<p><img alt="alt text" src="image-8.png" /></p>
+<h3 id="acessar-escopo-atual">Acessar escopo atual</h3>
+<p>O cronograma do escopo atual é o filme que é atualizado diariamente, cuja fonte de integração é o Cronoweb Recursos. </p>
+<p>A funcionalidade de acessar escopo atual também conta com uma aba lateral que contém 3 ícones: cronograma (onde se encontram as sondas e as tarefas com suas determinadas cores), painel de materiais e painel de serviços. </p>
+<p><img alt="alt text" src="image-9.png" /></p>
+<p>As funções do cronograma se concentram na parte superior direita da tela, são elas:</p>
+<ul>
+<li>
+<p>Informação: essa funcionalidade apresenta ao usuário informações referentes ao cache como “descrição”, “atualizado em”, “oferta de materiais atualizada em” e “disponibilidade de serviços atualizada em” com relação ao escopo atual.</p>
+</li>
+<li>
+<p>Botão incluir contingentes: essa funcionalidade permite ao usuário escolher incluir ou não os recursos contingentes. Sendo recurso contingente um recurso que pode ser utilizado caso o original não esteja disponível para uso.</p>
+</li>
+<li>
+<p>Visualizar atendimentos:  essa funcionalidade permite ao usuário escolher entre as opções de visualizar todos os recursos, todos os materiais, todos os serviços ou selecionar apenas recursos de seu interesse. Caso essa última opção seja selecionada, um pop up será aberto na tela para que o usuário selecione os recursos desejados. Vale ressaltar que ao escolher selecionar todos os materiais, aparecerá acima do ícone de visualizar atendimento um badge com a letra M, caso seja selecionada a opção de todos os serviços o badge aparecerá com a letra S e caso o usuário escolha a opção de selecionar apenas recursos de seu interesse o badge contará com a quantidade de recursos selecionados. Caso a opção de todos os recursos seja escolhida, o ícone não apresentará nenhum badge.</p>
+</li>
+<li>
+<p>Zoom:  essa funcionalidade aumenta ou diminui o horizonte visualizado na tela do cronograma.</p>
+</li>
+<li>
+<p>Resumo: essa funcionalidade abre uma aba lateral de resumo na qual temos as informações da quantidade total de tarefas, e quantidade e percentual de tarefas atendidas, não atendidas e não calculadas. Além disso, essa aba também funciona como um tipo de filtro, no qual as tarefas que não estão selecionadas ficam esmaecidas.</p>
+</li>
+</ul>
+<p>Além das opções de simular cenários e acessar escopo atual o usuário também poderá escolher na página inicial do Prisma entre as seguintes opções de painéis estáticos:</p>
+<h3 id="painel-de-publicacoes">Painel de publicações</h3>
+<p>No painel de publicações o usuário pode acompanhar o status das publicações, nesse painel ele tem acesso a data e horário da última atualização referente ao planejamento sondas e planejamento de recursos, a fonte desses dados e a data em que foi publicado o cronograma oficial de planejamento para o primeiro deles e as datas referentes ao longo prazo, operacional e à publicação para o segundo deles.</p>
+<p>Além disso, o usuário também tem acesso a data e horário da última atualização referente a resposta de prontidão e um resumo da prontidão, mostrando a quantidade de tarefas que se encontram em cada uma das classificações disponíveis: aguardando apontamento de recursos, analisando alternativas, pendente, não atende, atende, atende com ressalvas e não se aplica.</p>
+<p><img alt="alt text" src="image-10.png" /></p>
+<h3 id="visao-operacional">Visão operacional</h3>
+<p>Nesta aba o usuário poderá acompanhar a prontidão através de um cronograma similar ao cronograma encontrado em escopo atual, a diferença é que aqui, temos mais classificações, não se limitando apenas a atende, não atende e calculado, neste cronograma uma tarefa pode ser classificada em: aguardando apontamento de recursos, analisando alternativas, pendente, não atende, atende, atende com ressalvas e não se aplica. Sendo cada uma dessas alternativas representada por uma cor no cronograma. Ao passar o mouse em cima da tarefa é possível visualizar no tooltip a classificação correspondente a cor da tarefa de interesse.</p>
+<p><img alt="alt text" src="image-11.png" /></p>
+<p>Este cronograma possui as seguintes funcionalidades:</p>
+<ul>
+<li>
+<p>Zoom:  essa funcionalidade aumenta ou diminui o horizonte visualizado na tela do cronograma.</p>
+</li>
+<li>
+<p>Resumo: essa funcionalidade abre uma aba lateral de resumo na qual temos as informações da quantidade total de tarefas, e quantidade e percentual de tarefas atendidas, não atendidas e não calculadas. Além disso, essa aba também funciona como um tipo de filtro, no qual as tarefas que não estão selecionadas ficam esmaecidas.</p>
+</li>
+<li>
+<p>Filtro: funcionalidade que permite ao usuário filtrar as tarefas por cluster, bacia, projeto, tipo de serviço, tipo de tarefa e atendimento padrão. Vale ressaltar que podem ser selecionadas mais de uma opção nesses filtros e os filtros podem ser sobrepostos.</p>
+</li>
+<li>
+<p>Tarefas consideradas no atendimento: funcionalidade que permite ao usuário selecionar as opções de considerar tarefa, recurso ou grupo específico.</p>
+</li>
+</ul>
+<p>Nesta tela as diferenças que valem ressaltar quando comparadas as telas já citadas, é que aqui não temos painel de materiais e serviços na aba lateral à esquerda, temos apenas a opção de cronograma. </p>
+<p>Além disso, nesta tela também temos um botão onde o usuário escolhe entre resposta e recomendação, que muda a disposição do cronograma, porém o botão de recomendação só estará disponível para usuários administradores.</p>
+<h3 id="visao-medio-prazo">Visão médio-prazo</h3>
+<p>Na aba visão médio-prazo o usuário poderá acompanhar atendimento das frentes de serviço, esta aba constitui uma grande tabela com as colunas: atendimento padrão, nome da premissa, recurso, frentes atuais e o percentual de atendimento do ano corrente mais o percentual de atendimento dos dois anos seguintes, por exemplo percentual de atendimento 2025, percentual de atendimento 2026 e percentual de atendimento 2027.</p>
+<p>Frentes Atuais é a quantidade de serviços que temos disponíveis no momento para utilizarmos no Atendimento (esse dado vem da Disponibilidade da Árvore de Recursos). Enquanto frentes máximas é a quantidade máxima que temos em contrato para utilizarmos.</p>
+<p>Esse painel de visão médio prazo tem como objetivo exibir o percentual anual de atendimento (e posteriormente capacidade) de cada frente de serviço. Esse painel é uma visão a médio prazo do Atendimento porque utilizamos o dado da demanda diária determinística calculada pelo DELFOS para fazer o cálculo do atendimento. </p>
+<p>Esse cálculo de atendimento do painel é feito avaliando quantos dias nós temos em que a quantidade de Frentes Máximas é menor do que a Demanda, dividido pelo total de dias do planejamento (como está por ano seria 365), o cálculo é feito então com 1 - esse valor pra pegar a porcentagem.</p>
+<p>Vale ressaltar ainda que, no canto superior direito dessa tela o usuário também tem o botão de incluir contingentes, caso ele deseje visualizar a tabela com as atividades e recursos contingentes.</p>
+<p><img alt="alt text" src="image-12.png" /></p>
+<h3 id="visao-contratual">Visão contratual</h3>
+<p>Esta aba poderá ser usada pelo usuário para acompanhar a contratação. Nela é possível visualizar um cronograma semelhante aos já tratados anteriormente, porém, ao invés de tarefas agora temos os contratos. </p>
+<p>Vale ressaltar ainda que, onde tinham sondas nos demais cronogramas, do lado esquerdo da tela, para separar as tarefas de forma que cada linha representava uma sonda e as tarefas atreladas a ela. Neste cronograma no lugar de sondas temos bens e serviços, com a mesma disposição, onde cada linha representa um bem/serviço e os contratos atrelados a ele.</p>
+<p>Esta tela possui as seguintes funcionalidades:</p>
+<ul>
+<li>
+<p>Zoom:  essa funcionalidade aumenta ou diminui o horizonte visualizado na tela do cronograma.</p>
+</li>
+<li>
+<p>Ocultar do painel: essa funcionalidade permite ao usuário escolher entre duas opções: ocultar do painel contrato vigente de bens ou contrato vigente de serviços.</p>
+</li>
+<li>
+<p>Legenda: essa funcionalidade abre um pop up com todas as cores representadas no cronograma e o que cada uma delas representa, tendo as possíveis classificações disponíveis: atendimento contratado, atendimento planejado de novo contrato, atendimento planejado de aditivo de valor ou prazo, atendimento planejado de mão de obra ou estoque Petrobras, atendimento planejado de alternativas técnicas, período sem demanda, indicação de período sem cobertura contratual para demandas continuadas, período sem atendimento no horizonte da vigência do contrato, período com atendimento fora da vigência do contrato e término da vigência do contrato.</p>
+</li>
+</ul>
+<p><img alt="alt text" src="image-13.png" /></p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": ".", "features": [], "search": "assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}}</script>
+    
+    
+      <script src="assets/javascripts/bundle.60a45f97.min.js"></script>
+      
+    
+  </body>
+</html>

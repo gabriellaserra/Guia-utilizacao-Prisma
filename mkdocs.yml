@@ -1,0 +1,22 @@
+site_name: Guia de utilização - Prisma
+site_url: https://mydomain.org/guia_utilizacao
+theme:
+  name:  material   #readthedocs
+  language: pt-BR
+  logo: Simbolo.png
+  favicon: Simbolo.png
+  palette:
+    - scheme: default
+      primary: 'cyan'
+      toggle:
+        icon: material/weather-night
+        name: Modo noturno
+    - scheme: slate
+      primary: 'cyan'
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+nav:
+ - Início: 'index.md'
+ - Sobre:
+    - 'Referências': 'sobre.md'
