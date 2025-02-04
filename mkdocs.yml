@@ -5,7 +5,7 @@ theme:
   language: pt-BR
   logo: Simbolo.png
   favicon: Simbolo.png
-  palette:
+  palette: 
     - scheme: default
       primary: 'cyan'
       toggle:
