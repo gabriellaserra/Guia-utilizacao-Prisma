@@ -6,18 +6,16 @@ theme:
   logo: Simbolo.png
   favicon: Simbolo.png
   palette: custom
-'''
-      scheme: default
-      primary: custom
-      toggle:
-        icon: material/weather-night
-        name: Modo noturno
-      scheme: slate
-      primary: custom
-      toggle:
-        icon: material/weather-sunny
-        name: Modo claro
- '''
+      #scheme: default
+      #primary: custom
+      #toggle:
+        #icon: material/weather-night
+        #name: Modo noturno
+      #scheme: slate
+      #primary: custom
+      #toggle:
+        #icon: material/weather-sunny
+        #name: Modo claro
 extra_css:
   - stylesheets/extra.css
 nav:
