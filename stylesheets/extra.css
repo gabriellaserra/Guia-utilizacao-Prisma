@@ -1,0 +1,21 @@
+:root {
+  --md-primary-fg-color:        #EE0F0F;
+  --md-primary-fg-color--light: #ECB7B7;
+  --md-primary-fg-color--dark:  #90030C;
+}
+
+/* CSS para mudar o logo no modo escuro e claro */
+:root {
+  --logo-light: url('docs/Simbolo.png'); /* Logo para o modo claro */
+  --logo-dark: url('docs/Vector.png');  /* Logo para o modo escuro */
+}
+
+.md-header .md-logo {
+  background-image: var(--logo-light);
+}
+
+@media (prefers-color-scheme: dark) {
+  .md-header .md-logo {
+      background-image: var(--logo-dark);
+  }
+}
