@@ -6,8 +6,8 @@
 
 /* CSS para mudar o logo no modo escuro e claro */
 :root {
-  --logo-light: url('Simbolo.png'); /* Logo para o modo claro */
-  --logo-dark: url('Vector.png');  /* Logo para o modo escuro */
+  --logo-light: url('docs/Simbolo.png'); /* Logo para o modo claro */
+  --logo-dark: url('docs/Vector.png');  /* Logo para o modo escuro */
 }
 
 .md-header .md-logo {
