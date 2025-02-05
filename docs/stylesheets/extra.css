@@ -1,5 +1,5 @@
 /* Cores para o modo claro */
-@media (prefers-color-scheme: default){
+@media (prefers-color-scheme: light){
 :root {
   --md-primary-color: #ECB7B7; /* Cor principal para o modo claro */
   --md-primary-bg-color: #ECB7B7;
