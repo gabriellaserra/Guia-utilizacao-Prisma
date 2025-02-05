@@ -17,7 +17,7 @@ theme:
         icon: material/weather-sunny
         name: Modo claro
 extra_css:
-  - stylesheets/extra.css
+  - docs\stylesheets\extra.css
 nav:
  - Início: 'index.md'
  - Sobre:
