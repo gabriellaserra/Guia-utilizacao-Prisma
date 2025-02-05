@@ -3,16 +3,18 @@ site_url: https://mydomain.org/guia_utilizacao
 theme:
   name:  material   
   language: pt-BR
-  logo: Simbolo.png
+  
   favicon: Simbolo.png
   palette: 
     - scheme: default
       primary: 'white'
+      logo: Simbolo.png
       toggle:
         icon: material/weather-night
         name: Modo noturno
     - scheme: slate
       primary: 'black'
+      logo: Vector.png
       toggle:
         icon: material/weather-sunny
         name: Modo claro
