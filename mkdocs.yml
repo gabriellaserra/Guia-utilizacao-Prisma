@@ -1,23 +1,23 @@
 site_name: Guia de utilização - Prisma
 site_url: https://mydomain.org/guia_utilizacao
 theme:
-  name:  material   #readthedocs
+  name:  material   
   language: pt-BR
   logo: Simbolo.png
   favicon: Simbolo.png
   palette: 
-    - media: "(prefers-color-scheme: light)"
       scheme: default
+      primary: custom
       toggle:
         icon: material/weather-night
         name: Modo noturno
-    - media: "(prefers-color-scheme: dark)"
       scheme: slate
+      primary: custom
       toggle:
         icon: material/weather-sunny
         name: Modo claro
 extra_css:
-  - stylesheets/extra.css
+  - Guia-utilizacao-Prisma/stylesheets/extra.css
 nav:
  - Início: 'index.md'
  - Sobre:
