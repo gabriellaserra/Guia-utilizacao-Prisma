@@ -6,16 +6,20 @@ theme:
   logo: Simbolo.png
   favicon: Simbolo.png
   palette: 
-    - scheme: default
-      primary: '#ff9800'
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: custom
       toggle:
         icon: material/weather-night
         name: Modo noturno
-    - scheme: slate
-      primary: '#ff9800'
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: custom
       toggle:
         icon: material/weather-sunny
         name: Modo claro
+extra_css:
+  - stylesheets/extra.css
 nav:
  - Início: 'index.md'
  - Sobre:
