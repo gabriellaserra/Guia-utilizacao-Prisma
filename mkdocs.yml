@@ -5,16 +5,14 @@ theme:
   language: pt-BR
   logo: Simbolo.png
   favicon: Simbolo.png
-  palette: 
+  palette: custom
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: custom
       toggle:
         icon: material/weather-night
         name: Modo noturno
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: custom
       toggle:
         icon: material/weather-sunny
         name: Modo claro
