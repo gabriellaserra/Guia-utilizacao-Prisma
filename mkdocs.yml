@@ -6,12 +6,12 @@ theme:
   logo: Simbolo.png
   favicon: Simbolo.png
   palette: 
-      scheme: default
+     -scheme: default
       primary: 'white'
       toggle:
         icon: material/weather-night
         name: Modo noturno
-      scheme: slate
+     -scheme: slate
       primary: 'black'
       toggle:
         icon: material/weather-sunny
