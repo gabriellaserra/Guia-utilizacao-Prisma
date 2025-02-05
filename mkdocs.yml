@@ -5,7 +5,8 @@ theme:
   language: pt-BR
   logo: Simbolo.png
   favicon: Simbolo.png
-  palette: 
+  palette: custom
+'''
       scheme: default
       primary: custom
       toggle:
@@ -16,8 +17,9 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Modo claro
+ '''
 extra_css:
-  - Guia-utilizacao-Prisma/stylesheets/extra.css
+  - stylesheets/extra.css
 nav:
  - Início: 'index.md'
  - Sobre:
