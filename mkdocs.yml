@@ -8,18 +8,16 @@ theme:
   palette: 
     - scheme: default
       primary: 'white'
-      logo: Simbolo.png
       toggle:
         icon: material/weather-night
         name: Modo noturno
     - scheme: slate
       primary: 'black'
-      logo: Vector.png
       toggle:
         icon: material/weather-sunny
         name: Modo claro
-#extra_css:
-  #- stylesheets/extra.css
+extra_css:
+  - stylesheets/extra.css
 nav:
  - Início: 'index.md'
  - Sobre:
