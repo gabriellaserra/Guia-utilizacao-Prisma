@@ -20,5 +20,4 @@ Permite modificar o **nome** e a **descrição** do cenário. Apenas o usuário 
 ### Duplicar
 Permite criar uma cópia do cenário selecionado.  
 
-![alt text](image-3.png)
 
