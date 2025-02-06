@@ -19,18 +19,18 @@ theme:
 #extra_css:
   #- extra.css
 nav:
- - Página Inicial: 'index.md'
- - Simulador de Cenários:
+  - Página Inicial: 'index.md'
+  - Simulador de Cenários:
     - 'Gantt': 'ganttcenario.md'
     - 'Painel de Serviços': 'painelservicos.md'
     - 'Painel de Materiais': 'painelmateriais.md'
-- Abrir Cenário: 'abrircenario.md'
-- Gerar Cenário: 'gerarcenario.md'
-- Acessar Escopo Atual: 
+  - Abrir Cenário: 'abrircenario.md'
+  - Gerar Cenário: 'gerarcenario.md'
+  - Acessar Escopo Atual: 
     - 'Gantt': 'escopoatual.md'
     - 'Painel de Serviços': 'painelservicos.md'
     - 'Painel de Materiais': 'painelmateriais.md'
-- Painel de Publicações: 'publicacoes.md'
-- Visão Operacional: 'visaooperacional.md'
-- Visão Médio-Prazo: 'visaomedioprazo.md'
-- Visão Contratual: 'visaocontratual.md'
+  - Painel de Publicações: 'publicacoes.md'
+  - Visão Operacional: 'visaooperacional.md'
+  - Visão Médio-Prazo: 'visaomedioprazo.md'
+  - Visão Contratual: 'visaocontratual.md'
