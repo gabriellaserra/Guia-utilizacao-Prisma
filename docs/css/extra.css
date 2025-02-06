@@ -1,3 +1,8 @@
 .md-header {
   background-color: #387083;
+  color: white;
+}
+
+.md-icon svg {
+  fill: white;
 }
