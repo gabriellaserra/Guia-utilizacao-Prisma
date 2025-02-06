@@ -1,6 +1,8 @@
 # Visão Contratual
 
-Esta aba poderá ser usada pelo usuário para acompanhar a contratação. Nela é possível visualizar um cronograma semelhante aos já tratados anteriormente, porém, ao invés de tarefas agora temos os contratos. 
+Esta aba permite ao usuário visualizar as informações online do CROSS em um Gantt não editável
+
+Ela poderá ser usada pelo usuário para acompanhar a contratação. Nela é possível visualizar um cronograma semelhante aos já tratados anteriormente, porém, ao invés de tarefas agora temos os contratos. 
 
 Vale ressaltar ainda que, onde tinham sondas nos demais cronogramas, do lado esquerdo da tela, para separar as tarefas de forma que cada linha representava uma sonda e as tarefas atreladas a ela. Neste cronograma no lugar de sondas temos bens e serviços, com a mesma disposição, onde cada linha representa um bem/serviço e os contratos atrelados a ele.
 

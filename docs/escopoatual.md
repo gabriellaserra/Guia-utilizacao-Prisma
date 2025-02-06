@@ -1,10 +1,22 @@
 # Acessar Escopo Atual
 
-O cronograma do escopo atual é o filme que é atualizado diariamente, cuja fonte de integração é o Cronoweb Recursos. 
+Permite o usuário visualizar o filme do CW Recursos, com o atendimento calculado por ID recurso de materiais para demanda firme e
+demanda total (Firme+Contingente).
+
+Vale ressaltar, que diferente do simulador de cenários, a funcionalidade de acessar escopo atual é um Gantt não editável.
 
 A funcionalidade de acessar escopo atual também conta com uma aba lateral que contém 3 ícones: cronograma (onde se encontram as sondas e as tarefas com suas determinadas cores), painel de materiais e painel de serviços. 
 
 ![alt text](image-9.png)
+
+## Integrações
+
+Demanda: CW Recursos (Escopo atual)
+
+Identificar centro supridor: WS (Centro)
+
+Oferta: CROSS (Saldo Id Recurso)
+
 
 ## Funcionalidades
 

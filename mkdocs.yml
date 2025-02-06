@@ -20,6 +20,9 @@ theme:
   #- extra.css
 nav:
   - Página Inicial: 'index.md'
+  icon:
+    tag:
+      <identifier>: material/tag 
   - Simulador de Cenários:
     - 'Gantt': 'ganttcenario.md'
     - 'Painel de Serviços': 'painelservicos.md'
