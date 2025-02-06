@@ -1,38 +1,78 @@
+---
+tags:
+  - CW Recursos
+  - SAP via CROSS
+  - ÁRVORE DE RECURSOS
+---
 # Acessar Escopo Atual
 
-Permite o usuário visualizar o filme do CW Recursos, com o atendimento calculado por ID recurso de materiais para demanda firme e
-demanda total (Firme+Contingente).
+Este painel permite visualizar o **Escopo Atual** disponível no CW Recursos. As cores indicam o nível de atendimento de Recursos (materiais e serviços).  
 
-Vale ressaltar, que diferente do simulador de cenários, a funcionalidade de acessar escopo atual é um Gantt não editável.
+Nesta interface, é exibido um cronograma em formato Gantt não editável, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  
 
-A funcionalidade de acessar escopo atual também conta com uma aba lateral que contém 3 ícones: cronograma (onde se encontram as sondas e as tarefas com suas determinadas cores), painel de materiais e painel de serviços. 
+A cor das tarefas varia conforme o atendimento por ID Recurso, refletindo o pior caso entre as atividades nos seguintes status:
 
-![alt text](image-9.png)
+- Atende: existem recursos disponíveis para atender a tarefa.  
 
-## Integrações
+- Não atende: não há recursos suficientes para atender a demanda.  
 
-- Demanda: CW Recursos (Escopo atual)
-
-- Identificar centro supridor: WS (Centro)
-
-- Oferta: CROSS (Saldo Id Recurso)
-
+- Não calculado: tarefas no passado não são calculadas.  
 
 ## Funcionalidades
 
-As funções do cronograma se concentram na parte superior direita da tela, são elas:
+### Tooltip
 
-### Informação
-Apresenta ao usuário informações referentes ao cache como “descrição”, “atualizado em”, “oferta de materiais atualizada em” e “disponibilidade de serviços atualizada em” com relação ao escopo atual.
+Permite exibir informações adicionais ao passar o mouse sobre uma alocação.  
 
-### Botão incluir contingentes
-Permite ao usuário escolher incluir ou não os recursos contingentes. Sendo recurso contingente um recurso que pode ser utilizado caso o original não esteja disponível para uso.
+### Painel Lateral de Detalhes
 
-### Visualizar atendimentos
-Permite ao usuário escolher entre as opções de visualizar todos os recursos, todos os materiais, todos os serviços ou selecionar apenas recursos de seu interesse. Caso essa última opção seja selecionada, um pop up será aberto na tela para que o usuário selecione os recursos desejados. Vale ressaltar que ao escolher selecionar todos os materiais, aparecerá acima do ícone de visualizar atendimento um badge com a letra M, caso seja selecionada a opção de todos os serviços o badge aparecerá com a letra S e caso o usuário escolha a opção de selecionar apenas recursos de seu interesse o badge contará com a quantidade de recursos selecionados. Caso a opção de todos os recursos seja escolhida, o ícone não apresentará nenhum badge.
+Permite visualizar informações detalhadas ao clicar sobre uma alocação. As seções disponíveis são: 
+
+- Identificação: exibe dados da tarefa.  
+
+- Atendimento: apresenta informações sobre as atividades e recursos envolvidos.  
+
+### Incluir Contingentes
+
+Permite visualizar a tabela com os recursos contingentes.  
+
+### Visualização de Atendimento
+Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis são:  
+
+- Todos os recursos - botão fica sem o badge *aqui o ideal era botar como fica o botão*  
+
+- Todos os materiais - botão fica com o badge "M" *aqui o ideal era botar como fica o botão* 
+
+- Todos os serviços - botão fica com o badge "S" *aqui o ideal era botar como fica o botão* 
+
+- Um ou mais recursos selecionados - botão fica com o badge "2" *aqui o ideal era botar como fica o botão* 
+
+Ao aplicar um desses filtros, as cores das tarefas refletirão o pior caso de atendimento dentro do conjunto filtrado.  
 
 ### Zoom
-Aumenta ou diminui o horizonte visualizado na tela do cronograma.
+
+Permite ajustar a quantidade de períodos exibidos na linha do tempo. 
+
+- Reduzir o zoom: amplia o horizonte temporal, exibindo mais anos.  
+
+- Aumentar o zoom: detalha períodos menores, focando em um ano específico.  
+
+### Filtro *(confirmar se as categorias listadas estão corretas)*  
+Permite filtrar as tarefas de acordo com as seguintes categorias: 
+
+- Cluster
+
+- Bacia  
+
+- Projeto
+
+- Tipo de serviço
+
+- Tipo de tarefa  
+
+- Atendimento padrão
+
+O filtro funciona como uma interseção entre as categorias selecionadas.  
 
 ### Resumo
-Abre uma aba lateral de resumo na qual temos as informações da quantidade total de tarefas, e quantidade e percentual de tarefas atendidas, não atendidas e não calculadas. Além disso, essa aba também funciona como um tipo de filtro, no qual as tarefas que não estão selecionadas ficam esmaecidas.
+Permite visualizar o indicador de quantidade de tarefas por atendimento ID Recurso. Esse painel lateral também funciona como um filtro de tarefas.

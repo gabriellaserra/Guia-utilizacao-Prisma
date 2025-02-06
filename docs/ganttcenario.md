@@ -1,51 +1,99 @@
 # Gantt do Cenário
 
-Ao abrir um cenário irá abrir um cronograma no Gantt, com os dados referentes a fonte escolhida pelo criador na tela de gerar cenário (escopo atual ou última publicação de escopo), neste cronograma é possível observar que as caixas que representam tarefas são representadas pelas seguintes cores:
+Este painel permite visualizar o **cenário para estudo**. As cores indicam o nível de atendimento de Recursos (materiais e serviços).  
 
-- Cinza- Não calculado
+Nesta interface, é exibido um cronograma em formato Gantt editável, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  
 
-- Vermelho- Não atende
+A cor das tarefas varia conforme o atendimento por ID Recurso, refletindo o pior caso entre as atividades nos seguintes status: 
 
-- Verde – Atende 
+- Atende: existem recursos disponíveis para atender a tarefa.  
 
-![alt text](image-4.png)
+- Não atende: não há recursos suficientes para atender a demanda.  
 
-Essas cores representam o atendimento da tarefa em relação aos recursos selecionados no cronograma, considerando sempre o pior caso. 
+- Não calculado: tarefas no passado não são calculadas.
 
-Essa seleção de recursos é feita através da função de Visualizar Atendimento que permite ao usuário selecionar subconjuntos de recursos de interesse para análise, refletindo, portanto, na cor da tarefa.
-
-Uma tarefa é composta por atividades, se ao menos uma atividade não consegue ser atendida então toda a tarefa é classificada como não atende.
-
-Além disso, essas tarefas estão distribuídas em diferentes linhas, em que cada uma das linhas corresponde a uma determinada sonda, cujo nome se encontra do lado esquerda da tela.
-
-A tela dos cenários também conta com uma aba lateral que contém 3 ícones: cronograma (onde se encontram as sondas e as tarefas com suas determinadas cores), painel de materiais e painel de serviços. Cada um desses painéis será descrito mais detalhadamente em seguida.
-
-## Aba Lateral
-
-Ao clicar em uma tarefa, abrirá uma aba lateral com diversas informações de identificação sobre a tarefa em questão além das informações de atendimento a respeito de cada atividade que compõe aquela tarefa.
+Nesse cronograma é possível o usuário mover uma tarefa ou múltiplas tarefas e visualizar como a alteração impacta no cálculo do atendimento de recursos.
 
 ## Funcionalidades
 
-Além da visualização do cronograma e das cores referentes a cada tarefa, esta tela também possui as seguintes funcionalidades:
+### Tooltip
 
-### Informação
- Apresenta ao usuário informações referentes ao cache como “descrição”, “atualizado em”, “oferta de materiais atualizada em” e “disponibilidade de serviços atualizada em” com relação ao escopo atual.
+Permite exibir informações adicionais ao passar o mouse sobre uma alocação.  
 
-### Botão incluir contingentes
- Permite ao usuário escolher incluir ou não os recursos contingentes. Sendo recurso contingente um recurso que pode ser utilizado caso o original não esteja disponível para uso.
+### Painel Lateral de Detalhes
 
-### Visualizar atendimentos
-Permite ao usuário escolher entre as opções de visualizar todos os recursos, todos os materiais, todos os serviços ou selecionar apenas recursos de seu interesse. Caso essa última opção seja selecionada, um pop up será aberto na tela para que o usuário selecione os recursos desejados. Vale ressaltar que ao escolher selecionar todos os materiais, aparecerá acima do ícone de visualizar atendimento um badge com a letra M, caso seja selecionada a opção de todos os serviços o badge aparecerá com a letra S e caso o usuário escolha a opção de selecionar apenas recursos de seu interesse o badge contará com a quantidade de recursos selecionados. Caso a opção de todos os recursos seja escolhida, o ícone não apresentará nenhum badge.
+Permite visualizar informações detalhadas ao clicar sobre uma alocação. As seções disponíveis são:  
+
+- Identificação: exibe dados da tarefa.  
+
+- Atendimento: apresenta informações sobre as atividades e recursos envolvidos.  
+
+### Mover uma ou múltiplas tarefas (esse é bem importante ter o gif ou imagens intermediárias)***
+Via Drag-and-Drop
+
+Permite ao usuário mover uma tarefa arrastando-a para o local desejado no cronograma. Após a tarefa ser reposicionada, um pop-up de confirmação exibirá a data de início e a sonda para a qual a tarefa foi movida. O usuário deve confirmar a edição para que a tarefa seja efetivamente movida.
+
+### Selecionando as Tarefas
+Permite ao usuário selecionar uma ou várias tarefas, clicando no checkbox no canto superior esquerdo da alocação. (Ideal colocar uma imagem)
+
+No topo da tela, aparecerá um contador com a quantidade de tarefas selecionadas, juntamente com um botão de editar. Ao clicar em editar, o usuário poderá definir a data de início e a sonda para a qual as tarefas serão movidas. (Ideal colocar uma imagem)
+
+Ao confirmar, as tarefas serão movidas para o local escolhido, todas de forma consecutiva e em ordem de data de início.
+
+### Incluir Contingentes
+
+Permite visualizar a tabela com os recursos contingentes.  
+
+### Simular Atendimento (Recalcular)
+
+Permite recalcular o cronograma após edições, avaliando o impacto das alterações no atendimento das tarefas. As cores das tarefas podem mudar conforme o novo cálculo.  
+
+Sempre que houver uma alteração no cronograma, o botão será sinalizado com um badge *(inserir ícone do botão aqui)*, indicando que o cálculo de atendimento está desatualizado.
+
+
+### Visualização de Atendimento
+
+Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis são:  
+
+- Todos os recursos - botão fica sem o badge *aqui o ideal era botar como fica o botão*  
+
+- Todos os materiais - botão fica com o badge "M" *aqui o ideal era botar como fica o botão* 
+
+- Todos os serviços - botão fica com o badge "S" *aqui o ideal era botar como fica o botão* 
+
+- Um ou mais recursos selecionados - botão fica com o badge "2" *aqui o ideal era botar como fica o botão* 
+
+Ao aplicar um desses filtros, as cores das tarefas refletirão o pior caso de atendimento dentro do conjunto filtrado.  
 
 ### Zoom
- Aumenta ou diminui o horizonte visualizado na tela do cronograma.
+
+Permite ajustar a quantidade de períodos exibidos na linha do tempo.  
+
+- Reduzir o zoom: amplia o horizonte temporal, exibindo mais anos.  
+
+- Aumentar o zoom: detalha períodos menores, focando em um ano específico.  
+
+### Filtro *(confirmar se as categorias listadas estão corretas)*  
+
+Permite filtrar as tarefas de acordo com as seguintes categorias:  
+
+- Cluster
+
+- Bacia  
+
+- Projeto
+
+- Tipo de serviço
+
+- Tipo de tarefa  
+
+- Atendimento padrão
+
+O filtro funciona como uma interseção entre as categorias selecionadas.  
 
 ### Resumo
- Abre uma aba lateral de resumo na qual temos as informações da quantidade total de tarefas, e quantidade e percentual de tarefas atendidas, não atendidas e não calculadas. Além disso, essa aba também funciona como um tipo de filtro, no qual as tarefas que não estão selecionadas ficam esmaecidas.
+Permite visualizar o indicador de quantidade de tarefas por atendimento ID Recurso. Esse painel lateral também funciona como um filtro de tarefas.
 
-### Filtro
- Permite ao usuário filtrar as tarefas por cluster, bacia, projeto, tipo de serviço, tipo de tarefa e atendimento padrão. Vale ressaltar que podem ser selecionadas mais de uma opção nesses filtros e os filtros podem ser sobrepostos.
-
-Vale ressaltar ainda que, nesta tela o criador do cenário terá a possibilidade de movimentar as tarefas para diferentes datas e recalcular as classificações dessas tarefas através do botão de recálculo que se localiza do lado direito do botão de incluir contingentes. Este ícone terá junto dele um badge sempre que alguma modificação for feita no cenário indicando que é necessário recalcular novamente para obter as classificações atualizadas das tarefas.
+![alt text](image-4.png)
 
 ![alt text](SimuladorDeCenarios.gif)
