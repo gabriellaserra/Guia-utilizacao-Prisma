@@ -548,6 +548,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Visão Médio-Prazo
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -557,6 +568,49 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funcionalidades
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funcionalidades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#incluir-contingentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Incluir Contingentes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -602,6 +656,38 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funcionalidades
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funcionalidades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#incluir-contingentes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Incluir Contingentes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -616,11 +702,35 @@
 
 
 <h1 id="visao-medio-prazo">Visão Médio Prazo</h1>
-<p>Na aba visão médio-prazo o usuário poderá acompanhar atendimento das frentes de serviço, esta aba constitui uma grande tabela com as colunas: atendimento padrão, nome da premissa, recurso, frentes atuais e o percentual de atendimento do ano corrente mais o percentual de atendimento dos dois anos seguintes, por exemplo percentual de atendimento 2025, percentual de atendimento 2026 e percentual de atendimento 2027.</p>
-<p>Frentes Atuais é a quantidade de serviços que temos disponíveis no momento para utilizarmos no Atendimento (esse dado vem da Disponibilidade da Árvore de Recursos). Enquanto frentes máximas é a quantidade máxima que temos em contrato para utilizarmos.</p>
-<p>Esse painel de visão médio prazo tem como objetivo exibir o percentual anual de atendimento (e posteriormente capacidade) de cada frente de serviço. Esse painel é uma visão a médio prazo do Atendimento porque utilizamos o dado da demanda diária determinística calculada pelo DELFOS para fazer o cálculo do atendimento. </p>
-<p>Esse cálculo de atendimento do painel é feito avaliando quantos dias nós temos em que a quantidade de Frentes Máximas é menor do que a Demanda, dividido pelo total de dias do planejamento (como está por ano seria 365), o cálculo é feito então com 1 - esse valor pra pegar a porcentagem.</p>
-<p>Vale ressaltar ainda que, no canto superior direito dessa tela o usuário também tem o botão de incluir contingentes, caso ele deseje visualizar a tabela com as atividades e recursos contingentes.</p>
+<p><strong>Integração com o DELFOS e Árvore de Recursos</strong> <em>(inserir tag aqui)</em>  </p>
+<p>Este painel permite a visualização do <strong>Acompanhamento do Atendimento de Frentes de Serviços</strong>, considerando a demanda diária determinística calculada pelo DELFOS.   </p>
+<p>Nesta interface, é exibida uma tabela contendo as seguintes informações:  </p>
+<ul>
+<li>
+<p>Atendimento Padrão da Premissa <em>(exibir logotipo do DELFOS)</em>  </p>
+</li>
+<li>
+<p>Nome da Premissa <em>(exibir logotipo do DELFOS)</em>  </p>
+</li>
+<li>
+<p>Nome ou Código do Recurso <em>(confirmar se o dado correto é "nome" ou "código")</em> <em>(exibir logotipo do DELFOS)</em>  </p>
+</li>
+<li>
+<p>Frentes Atuais <em>(exibir logotipo da Árvore de Recursos)</em> – quantidade de serviços atualmente disponíveis para atendimento. </p>
+</li>
+<li>
+<p>Frentes Máximas <em>(exibir logotipo da Árvore de Recursos)</em> – quantidade máxima de serviços disponíveis em contrato.  </p>
+</li>
+<li>
+<p>Percentual de Atendimento (Ano Corrente + 2 Anos <em>(exibir logotipo do DELFOS)</em> – incluir a descrição do tooltip correspondente. </p>
+</li>
+<li>
+<p>Percentual de Capacidade (Ano Corrente + 2 Anos <em>(exibir logotipo do DELFOS)</em> – incluir a descrição do tooltip correspondente.  </p>
+</li>
+</ul>
+<h2 id="funcionalidades">Funcionalidades</h2>
+<h3 id="incluir-contingentes">Incluir Contingentes</h3>
+<p>Permite visualizar a tabela com os recursos contingentes.  </p>
 <p><img alt="alt text" src="../image-12.png" /></p>
 
 

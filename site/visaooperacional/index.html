@@ -571,6 +571,57 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Funcionalidades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tooltip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tooltip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#painel-lateral-de-detalhes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Painel Lateral de Detalhes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modo-de-visualizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modo de Visualização
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zoom" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zoom
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtro *
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -654,6 +705,57 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="Funcionalidades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#tooltip" class="md-nav__link">
+    <span class="md-ellipsis">
+      Tooltip
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#painel-lateral-de-detalhes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Painel Lateral de Detalhes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modo-de-visualizacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      Modo de Visualização
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zoom" class="md-nav__link">
+    <span class="md-ellipsis">
+      Zoom
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtro" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtro *
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
     </ul>
@@ -672,26 +774,72 @@
 
 
 <h1 id="visao-operacional">Visão Operacional</h1>
-<p>Nesta aba o usuário poderá acompanhar a prontidão através de um cronograma similar ao cronograma encontrado em escopo atual, a diferença é que aqui, temos mais classificações, não se limitando apenas a atende, não atende e calculado, neste cronograma uma tarefa pode ser classificada em: aguardando apontamento de recursos, analisando alternativas, pendente, não atende, atende, atende com ressalvas e não se aplica. Sendo cada uma dessas alternativas representada por uma cor no cronograma. Ao passar o mouse em cima da tarefa é possível visualizar no tooltip a classificação correspondente a cor da tarefa de interesse.</p>
-<p><img alt="alt text" src="../image-11.png" /></p>
+<p><strong>Integração com o PRONT</strong> <em>(inserir tag aqui)</em>  </p>
+<p>Este painel permite a visualização das <strong>Respostas de Prontidão</strong> registradas no PRONT.  </p>
+<p>Nesta interface, é exibido um cronograma em formato Gantt, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  </p>
+<p>A cor das tarefas varia conforme a resposta de prontidão, refletindo o pior caso entre as respostas do grupo.  </p>
 <h2 id="funcionalidades">Funcionalidades</h2>
-<p>Este cronograma possui as seguintes funcionalidades:</p>
+<h3 id="tooltip">Tooltip</h3>
+<p>Exibe informações adicionais ao passar o mouse sobre uma alocação.  </p>
+<h3 id="painel-lateral-de-detalhes">Painel Lateral de Detalhes</h3>
+<p>Permite visualizar mais informações ao clicar sobre uma alocação. As seções disponíveis são:<br />
+- Resposta: detalhes sobre as respostas de cada grupo.  </p>
 <ul>
 <li>
-<p>Zoom:  essa funcionalidade aumenta ou diminui o horizonte visualizado na tela do cronograma.</p>
+<p>Recurso: informações sobre as atividades e recursos apontados.  </p>
 </li>
 <li>
-<p>Resumo: essa funcionalidade abre uma aba lateral de resumo na qual temos as informações da quantidade total de tarefas, e quantidade e percentual de tarefas atendidas, não atendidas e não calculadas. Além disso, essa aba também funciona como um tipo de filtro, no qual as tarefas que não estão selecionadas ficam esmaecidas.</p>
-</li>
-<li>
-<p>Filtro: funcionalidade que permite ao usuário filtrar as tarefas por cluster, bacia, projeto, tipo de serviço, tipo de tarefa e atendimento padrão. Vale ressaltar que podem ser selecionadas mais de uma opção nesses filtros e os filtros podem ser sobrepostos.</p>
-</li>
-<li>
-<p>Tarefas consideradas no atendimento: funcionalidade que permite ao usuário selecionar as opções de considerar tarefa, recurso ou grupo específico.</p>
+<p>Detalhes: dados da tarefa.  </p>
 </li>
 </ul>
-<p>Nesta tela as diferenças que valem ressaltar quando comparadas as telas já citadas, é que aqui não temos painel de materiais e serviços na aba lateral à esquerda, temos apenas a opção de cronograma. </p>
-<p>Além disso, nesta tela também temos um botão onde o usuário escolhe entre resposta e recomendação, que muda a disposição do cronograma, porém o botão de recomendação só estará disponível para usuários administradores.</p>
+<h3 id="modo-de-visualizacao">Modo de Visualização</h3>
+<p>Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis são:  </p>
+<ul>
+<li>
+<p>Todas as tarefas.  </p>
+</li>
+<li>
+<p>Todas as tarefas de um Grupo.  </p>
+</li>
+<li>
+<p>Todas as tarefas relacionadas a um ou mais Recursos.  </p>
+</li>
+</ul>
+<p>Ao aplicar um desses filtros, as cores das tarefas refletirão o pior caso de resposta dentro do conjunto filtrado.  </p>
+<h3 id="zoom">Zoom</h3>
+<p>Permite ajustar a quantidade de períodos exibidos na linha do tempo.  </p>
+<ul>
+<li>
+<p>Reduzir o zoom: amplia o horizonte temporal, exibindo mais anos.  </p>
+</li>
+<li>
+<p>Aumentar o zoom: detalha períodos menores, focando em um ano específico.  </p>
+</li>
+</ul>
+<h3 id="filtro">Filtro *</h3>
+<p>Permite filtrar as tarefas de acordo com as seguintes categorias:  </p>
+<ul>
+<li>
+<p>Cluster</p>
+</li>
+<li>
+<p>Bacia  </p>
+</li>
+<li>
+<p>Projeto</p>
+</li>
+<li>
+<p>Tipo de serviço</p>
+</li>
+<li>
+<p>Tipo de tarefa  </p>
+</li>
+<li>
+<p>Atendimento padrão</p>
+</li>
+</ul>
+<p>O filtro funciona como uma interseção entre as categorias selecionadas.  </p>
+<p><img alt="alt text" src="../image-11.png" /></p>
 
 
 
