@@ -9,19 +9,9 @@
 
 /* Estilo para as tags */
 .md-typeset .md-tags a {
-  background-color: #3498db;  /* Cor de fundo da tag */
+  background-color: #387083;  /* Cor de fundo da tag */
   color: white;               /* Cor do texto da tag */
   border-radius: 12px;        /* Borda arredondada */
   padding: 4px 10px;          /* Espaçamento interno, deixando a tag compacta */
   font-size: 12px;            /* Tamanho da fonte, para ficar pequeno */
-  text-transform: capitalize; /* Primeira letra maiúscula */
-  text-decoration: none;      /* Remove sublinhado */
-  display: inline-block;      /* Faz a tag ficar ao lado de outras */
-  margin: 2px 5px;            /* Espaço entre as tags */
-  transition: background-color 0.3s ease;  /* Transição suave ao passar o mouse */
-}
-
-/* Efeito de hover: muda a cor da tag ao passar o mouse */
-.md-typeset .md-tags a:hover {
-  background-color: #2980b9; /* Cor mais escura ao passar o mouse */
 }
