@@ -326,6 +326,17 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Abrir cenário
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -335,6 +346,76 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funcionalidades
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funcionalidades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visualizar-cenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visualizar Cenário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#excluir" class="md-nav__link">
+    <span class="md-ellipsis">
+      Excluir
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duplicar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Duplicar
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -565,6 +646,65 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#funcionalidades" class="md-nav__link">
+    <span class="md-ellipsis">
+      Funcionalidades
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Funcionalidades">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#visualizar-cenario" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visualizar Cenário
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#excluir" class="md-nav__link">
+    <span class="md-ellipsis">
+      Excluir
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#editar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Editar
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#duplicar" class="md-nav__link">
+    <span class="md-ellipsis">
+      Duplicar
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -579,24 +719,19 @@
 
 
 <h1 id="abrir-cenario">Abrir Cenário</h1>
-<p>Ao clicar em abrir cenário, o usuário terá acesso a uma lista de cenários já criados, com o nome do cenário, data de criação e criador.</p>
+<p>Esta tela permite visualizar a <strong>lista de cenários</strong> criados pelo usuário, bem como aqueles aos quais ele tem acesso.  </p>
 <p><img alt="alt text" src="../image-2.png" /></p>
-<p>Ao passar o mouse por cima de um dos cenários, o usuário poderá clicar nas seguintes opções:</p>
-<ul>
-<li>Visualizar cenário: nesta opção o usuário terá acesso a mais informações a respeito do cenário selecionado como descrição, origem, fonte, data de início e horizonte.</li>
-</ul>
-<p>Caso o usuário seja o criador do cenário ele também poderá selecionar os ícones de:</p>
-<ul>
-<li>
-<p>Excluir cenário</p>
-</li>
-<li>
-<p>Editar cenário: nesta opção o usuário poderá editar apenas o nome e a descrição do seu próprio cenário.</p>
-</li>
-</ul>
+<p>Para abrir um cenário, basta <strong>clicar sobre a linha correspondente</strong>.  </p>
+<h2 id="funcionalidades">Funcionalidades</h2>
+<h3 id="visualizar-cenario">Visualizar Cenário</h3>
+<p>Permite acessar informações detalhadas sobre o cenário.  </p>
+<h3 id="excluir">Excluir</h3>
+<p>Permite excluir um cenário. Apenas o usuário criador pode realizar essa ação.  </p>
+<h3 id="editar">Editar</h3>
+<p>Permite modificar o <strong>nome</strong> e a <strong>descrição</strong> do cenário. Apenas o usuário criador pode realizar essa ação.  </p>
+<h3 id="duplicar">Duplicar</h3>
+<p>Permite criar uma cópia do cenário selecionado.  </p>
 <p><img alt="alt text" src="../image-3.png" /></p>
-<p>Ao clicar em qualquer um  dos cenários irá abrir um cronograma no Gantt, com os dados referentes a fonte escolhida pelo criador na tela de gerar cenário (escopo atual ou última publicação de escopo).</p>
-<p>Além disso, nesta tela o usuário poderá movimentar as caixas, que representam as tarefas, para criar novos possíveis cenários.</p>
 
 
 
