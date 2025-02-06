@@ -1,14 +1,68 @@
 # Painel de Materiais
 
-Ao selecionar a opção do painel de materiais, irá abrir um pop up na tela para que o usuário escolha os materiais de interesse.
+Este painel permite visualizar a **Demanda e Oferta** de um ou mais materiais.  
 
-Ao selecioná-los e clicar em “aplicar”, abrirá uma tela dividida em demanda e oferta, ao lado desses títulos temos a fonte de cada um deles, de onde são tiradas as informações. 
+O objetivo deste painel é proporcionar mais clareza e transparência na análise do **atendimento de materiais**. 
 
-No card de demanda temos as colunas PG, Tipo Tarefa, Sonda, ID Recurso, atividade, data de necessidade, quantidade demandada, contingente e status.
+Nesta interface, são exibidas as seções de **Demanda** e **Oferta**, com as seguintes informações:  
 
-Enquanto no card de oferta temos as informações de estoque, pedido e contrato.
+## Demanda
+Exibe a lista de atividades que demandam o recurso. As informações incluem:  
+- PG
 
-Este painel é essencial para que o usuário consiga identificar as demandas e ofertas dos materiais de seu interesse, entendendo as ofertas disponíveis para este material e o motivo de algumas demandas referentes a ele não serem atendidas.
+- Tipo de Tarefa
+
+- Sonda
+
+- Código do Recurso
+
+- Atividade
+
+- Data de Necessidade – data de início da atividade  
+
+- Quantidade Demandada
+
+- Contingente 
+
+- Status da Atividade – *(listar opções aqui)*  
+
+Nota: Não são exibidas tarefas que já ocorreram (no passado).  
+
+## Oferta
+Exibe a lista de **ofertas** dos materiais. As informações incluem:  
+
+### Estoque
+- Código do Recurso
+- NM
+- Centro
+- Tipo Avaliação
+- Depósito
+- Quantidade
+
+### Pedido
+- Código do Recurso
+- NM
+- Pedido
+- Item
+- Data da Remessa
+- Quantidade
+
+### Contrato
+- Código do Recurso
+- Contrato
+- Item
+- Data de Início
+- Data de Término
+- LeadTime
+- Quantidade
+
+## Funcionalidades
+
+### Incluir Contingentes
+Permite visualizar a tabela com as atividades e recursos contingentes. *(Confirmar se a exibição é para atividades ou recursos.)*  
+
+### Selecionar Recurso
+Permite alterar os materiais que estão sendo visualizados. 
 
 ![alt text](image-5.png)
 

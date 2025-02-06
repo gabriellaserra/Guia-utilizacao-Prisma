@@ -1,13 +1,54 @@
 # Painel de Serviços
 
-Ao selecionar a opção do painel de serviços, irá abrir um pop up na tela para que o usuário escolha os serviços de interesse.
+Este painel permite visualizar a **Demanda e Oferta** de um serviço.  
 
-Ao selecioná-los e aplicar, abrirá uma tela dividida em demanda e oferta, ao lado desses títulos temos a fonte de cada um deles, de onde são tiradas as informações. 
+O objetivo deste painel é proporcionar mais clareza e transparência na análise do **atendimento de serviços**.  
 
-No card de demanda temos as colunas PG, Atendimento padrão, Tipo Tarefa, Sonda, atividade, período de necessidade, quantidade demandada, contingente e status.
+Nesta interface, são exibidas as seções de **Demanda** e **Oferta**, com as seguintes informações:  
 
-Enquanto no card de oferta temos as colunas data início, data fim, atendimento padrão e quantidade disponível.
+## Demanda
+Exibe a lista de atividades que demandam o recurso. As informações incluem:  
 
-Este painel é essencial para que o usuário consiga identificar as demandas e ofertas dos serviços de seu interesse, entendendo as ofertas disponíveis para esse serviço e o motivo de algumas demandas referentes a ele não serem atendidas.
+- PG
+
+- Atendimento Padrão 
+
+- Tipo de Tarefa
+
+- Sonda
+
+- Atividade
+
+- Período de Necessidade – data de início e fim da atividade  
+
+- Quantidade Demandada
+
+- Contingente 
+
+- Status da Atividade – *(listar opções aqui)*  
+
+Nota: Não são exibidas tarefas que já ocorreram (no passado).  
+
+## Oferta
+
+Exibe a lista de **disponibilidade** dos serviços. As informações incluem:  
+
+- Data de Início
+
+- Data de Fim
+
+- Atendimento Padrão
+
+- Quantidade Disponível
+
+## Funcionalidades
+
+### Incluir Contingentes
+
+Permite visualizar a tabela com as atividades e recursos contingentes. *(Confirmar se a exibição é para atividades ou recursos.)*  
+
+### Selecionar Recurso
+
+Permite alterar o serviço que está sendo visualizado.  
 
 ![alt text](image-8.png)
