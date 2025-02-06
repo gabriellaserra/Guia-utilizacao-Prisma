@@ -46,7 +46,8 @@ Permite ajustar a quantidade de períodos exibidos na linha do tempo.
 
 - Aumentar o zoom: detalha períodos menores, focando em um ano específico.  
 
-### Filtro * 
+### Filtro 
+
 Permite filtrar as tarefas de acordo com as seguintes categorias:  
 
 - Cluster
@@ -62,6 +63,10 @@ Permite filtrar as tarefas de acordo com as seguintes categorias:
 - Atendimento padrão
 
 O filtro funciona como uma interseção entre as categorias selecionadas.  
+
+### Resumo
+
+Permite visualizar o indicador de quantidade de tarefas por resposta de prontidão. Esse painel lateral também funciona como um filtro de tarefas.
 
 ![alt text](image-11.png)
 
