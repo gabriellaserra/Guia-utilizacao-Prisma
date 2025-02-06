@@ -1,8 +1,9 @@
-# Visão Operacional
 ---
 tags:
   - PRONT
 ---
+
+# Visão Operacional
 
 Este painel permite a visualização das **Respostas de Prontidão** registradas no PRONT.  
 
