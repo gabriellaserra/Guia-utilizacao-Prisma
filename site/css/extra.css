@@ -7,11 +7,4 @@
   fill: white;
 }
 
-/* Estilo para as tags */
-.md-typeset .md-tags a {
-  background-color: #387083;  /* Cor de fundo da tag */
-  color: white;               /* Cor do texto da tag */
-  border-radius: 12px;        /* Borda arredondada */
-  padding: 4px 10px;          /* Espaçamento interno, deixando a tag compacta */
-  font-size: 12px;            /* Tamanho da fonte, para ficar pequeno */
-}
+
