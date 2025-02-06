@@ -16,8 +16,8 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Modo claro
-#extra_css:
-  #- extra.css
+extra_css:
+    - docs/stylesheets/extra.css
 nav:
   - Página Inicial:  'index.md'
   - Simulador de Cenários:
