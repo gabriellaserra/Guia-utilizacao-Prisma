@@ -1,51 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://mydomain.org/guia_utilizacao/</loc>
+         <loc>https://mydomain.org/guia_utilizacao/index.html</loc>
          <lastmod>2025-02-06</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/guia_utilizacao/abrircenario/</loc>
+         <loc>https://mydomain.org/guia_utilizacao/abrircenario.html</loc>
          <lastmod>2025-02-06</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/guia_utilizacao/escopoatual/</loc>
+         <loc>https://mydomain.org/guia_utilizacao/escopoatual.html</loc>
          <lastmod>2025-02-06</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/guia_utilizacao/ganttcenario/</loc>
+         <loc>https://mydomain.org/guia_utilizacao/ganttcenario.html</loc>
          <lastmod>2025-02-06</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/guia_utilizacao/gerarcenario/</loc>
+         <loc>https://mydomain.org/guia_utilizacao/gerarcenario.html</loc>
          <lastmod>2025-02-06</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/guia_utilizacao/painelmateriais/</loc>
+         <loc>https://mydomain.org/guia_utilizacao/painelmateriais.html</loc>
          <lastmod>2025-02-06</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/guia_utilizacao/painelservicos/</loc>
+         <loc>https://mydomain.org/guia_utilizacao/painelservicos.html</loc>
          <lastmod>2025-02-06</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/guia_utilizacao/publicacoes/</loc>
+         <loc>https://mydomain.org/guia_utilizacao/publicacoes.html</loc>
          <lastmod>2025-02-06</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/guia_utilizacao/sobre/</loc>
+         <loc>https://mydomain.org/guia_utilizacao/sobre.html</loc>
          <lastmod>2025-02-06</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/guia_utilizacao/visaocontratual/</loc>
+         <loc>https://mydomain.org/guia_utilizacao/visaocontratual.html</loc>
          <lastmod>2025-02-06</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/guia_utilizacao/visaomedioprazo/</loc>
+         <loc>https://mydomain.org/guia_utilizacao/visaomedioprazo.html</loc>
          <lastmod>2025-02-06</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/guia_utilizacao/visaooperacional/</loc>
+         <loc>https://mydomain.org/guia_utilizacao/visaooperacional.html</loc>
          <lastmod>2025-02-06</lastmod>
     </url>
 </urlset>
