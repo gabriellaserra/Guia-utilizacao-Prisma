@@ -17,7 +17,7 @@ theme:
         icon: material/weather-sunny
         name: Modo claro
 extra_css:
-    - extra.css
+    - css/extra.css
 nav:
   - Página Inicial:  'index.md'
   - Simulador de Cenários:
