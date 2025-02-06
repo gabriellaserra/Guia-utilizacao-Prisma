@@ -19,11 +19,7 @@ theme:
 #extra_css:
   #- extra.css
 nav:
-  - Página Inicial: 
-    file: 'index.md'
-    icon:
-      tag:
-        <identifier>: material/tag 
+  - Página Inicial:  'index.md'
   - Simulador de Cenários:
     - 'Gantt': 'ganttcenario.md'
     - 'Painel de Serviços': 'painelservicos.md'
