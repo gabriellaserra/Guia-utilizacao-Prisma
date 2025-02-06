@@ -1,7 +1,7 @@
 ---
 tags:
   - DELFOS
-  -ÁRVORE DE RECURSOS
+  - ÁRVORE DE RECURSOS
 ---
 # Visão Médio Prazo
 
