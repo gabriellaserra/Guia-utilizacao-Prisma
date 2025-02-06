@@ -440,15 +440,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#integracoes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Integrações
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#funcionalidades" class="md-nav__link">
     <span class="md-ellipsis">
       Funcionalidades
@@ -459,27 +450,36 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#informacao" class="md-nav__link">
+  <a href="#tooltip" class="md-nav__link">
     <span class="md-ellipsis">
-      Informação
+      Tooltip
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#botao-incluir-contingentes" class="md-nav__link">
+  <a href="#painel-lateral-de-detalhes" class="md-nav__link">
     <span class="md-ellipsis">
-      Botão incluir contingentes
+      Painel Lateral de Detalhes
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#visualizar-atendimentos" class="md-nav__link">
+  <a href="#incluir-contingentes" class="md-nav__link">
     <span class="md-ellipsis">
-      Visualizar atendimentos
+      Incluir Contingentes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualizacao-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visualização de Atendimento
     </span>
   </a>
   
@@ -489,6 +489,15 @@
   <a href="#zoom" class="md-nav__link">
     <span class="md-ellipsis">
       Zoom
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtro-confirmar-se-as-categorias-listadas-estao-corretas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtro (confirmar se as categorias listadas estão corretas)
     </span>
   </a>
   
@@ -673,15 +682,6 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#integracoes" class="md-nav__link">
-    <span class="md-ellipsis">
-      Integrações
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
   <a href="#funcionalidades" class="md-nav__link">
     <span class="md-ellipsis">
       Funcionalidades
@@ -692,27 +692,36 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#informacao" class="md-nav__link">
+  <a href="#tooltip" class="md-nav__link">
     <span class="md-ellipsis">
-      Informação
+      Tooltip
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#botao-incluir-contingentes" class="md-nav__link">
+  <a href="#painel-lateral-de-detalhes" class="md-nav__link">
     <span class="md-ellipsis">
-      Botão incluir contingentes
+      Painel Lateral de Detalhes
     </span>
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#visualizar-atendimentos" class="md-nav__link">
+  <a href="#incluir-contingentes" class="md-nav__link">
     <span class="md-ellipsis">
-      Visualizar atendimentos
+      Incluir Contingentes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visualizacao-de-atendimento" class="md-nav__link">
+    <span class="md-ellipsis">
+      Visualização de Atendimento
     </span>
   </a>
   
@@ -722,6 +731,15 @@
   <a href="#zoom" class="md-nav__link">
     <span class="md-ellipsis">
       Zoom
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#filtro-confirmar-se-as-categorias-listadas-estao-corretas" class="md-nav__link">
+    <span class="md-ellipsis">
+      Filtro (confirmar se as categorias listadas estão corretas)
     </span>
   </a>
   
@@ -754,44 +772,122 @@
               <article class="md-content__inner md-typeset">
                 
                   
+  
+<nav class="md-tags" >
+  
+    
+    
+    
+      <span class="md-tag">CW Recursos</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">SAP via CROSS</span>
+    
+  
+    
+    
+    
+      <span class="md-tag">ÁRVORE DE RECURSOS</span>
+    
+  
+</nav>
+
 
 
 <h1 id="acessar-escopo-atual">Acessar Escopo Atual</h1>
-<p>Permite o usuário visualizar o filme do CW Recursos, com o atendimento calculado por ID recurso de materiais para demanda firme e
-demanda total (Firme+Contingente).</p>
-<p>Vale ressaltar, que diferente do simulador de cenários, a funcionalidade de acessar escopo atual é um Gantt não editável.</p>
-<p>A funcionalidade de acessar escopo atual também conta com uma aba lateral que contém 3 ícones: cronograma (onde se encontram as sondas e as tarefas com suas determinadas cores), painel de materiais e painel de serviços. </p>
-<p><img alt="alt text" src="../image-9.png" /></p>
-<h2 id="integracoes">Integrações</h2>
+<p>Este painel permite visualizar o <strong>Escopo Atual</strong> disponível no CW Recursos. As cores indicam o nível de atendimento de Recursos (materiais e serviços).  </p>
+<p>Nesta interface, é exibido um cronograma em formato Gantt não editável, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  </p>
+<p>A cor das tarefas varia conforme o atendimento por ID Recurso, refletindo o pior caso entre as atividades nos seguintes status:</p>
 <ul>
 <li>
-<p>Demanda: CW Recursos (Escopo atual)</p>
+<p>Atende: existem recursos disponíveis para atender a tarefa.  </p>
 </li>
 <li>
-<p>Identificar centro supridor: WS (Centro)</p>
+<p>Não atende: não há recursos suficientes para atender a demanda.  </p>
 </li>
 <li>
-<p>Oferta: CROSS (Saldo Id Recurso)</p>
+<p>Não calculado: tarefas no passado não são calculadas.  </p>
 </li>
 </ul>
 <h2 id="funcionalidades">Funcionalidades</h2>
-<p>As funções do cronograma se concentram na parte superior direita da tela, são elas:</p>
-<h3 id="informacao">Informação</h3>
-<p>Apresenta ao usuário informações referentes ao cache como “descrição”, “atualizado em”, “oferta de materiais atualizada em” e “disponibilidade de serviços atualizada em” com relação ao escopo atual.</p>
-<h3 id="botao-incluir-contingentes">Botão incluir contingentes</h3>
-<p>Permite ao usuário escolher incluir ou não os recursos contingentes. Sendo recurso contingente um recurso que pode ser utilizado caso o original não esteja disponível para uso.</p>
-<h3 id="visualizar-atendimentos">Visualizar atendimentos</h3>
-<p>Permite ao usuário escolher entre as opções de visualizar todos os recursos, todos os materiais, todos os serviços ou selecionar apenas recursos de seu interesse. Caso essa última opção seja selecionada, um pop up será aberto na tela para que o usuário selecione os recursos desejados. Vale ressaltar que ao escolher selecionar todos os materiais, aparecerá acima do ícone de visualizar atendimento um badge com a letra M, caso seja selecionada a opção de todos os serviços o badge aparecerá com a letra S e caso o usuário escolha a opção de selecionar apenas recursos de seu interesse o badge contará com a quantidade de recursos selecionados. Caso a opção de todos os recursos seja escolhida, o ícone não apresentará nenhum badge.</p>
+<h3 id="tooltip">Tooltip</h3>
+<p>Permite exibir informações adicionais ao passar o mouse sobre uma alocação.  </p>
+<h3 id="painel-lateral-de-detalhes">Painel Lateral de Detalhes</h3>
+<p>Permite visualizar informações detalhadas ao clicar sobre uma alocação. As seções disponíveis são: </p>
+<ul>
+<li>
+<p>Identificação: exibe dados da tarefa.  </p>
+</li>
+<li>
+<p>Atendimento: apresenta informações sobre as atividades e recursos envolvidos.  </p>
+</li>
+</ul>
+<h3 id="incluir-contingentes">Incluir Contingentes</h3>
+<p>Permite visualizar a tabela com os recursos contingentes.  </p>
+<h3 id="visualizacao-de-atendimento">Visualização de Atendimento</h3>
+<p>Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis são:  </p>
+<ul>
+<li>
+<p>Todos os recursos - botão fica sem o badge <em>aqui o ideal era botar como fica o botão</em>  </p>
+</li>
+<li>
+<p>Todos os materiais - botão fica com o badge "M" <em>aqui o ideal era botar como fica o botão</em> </p>
+</li>
+<li>
+<p>Todos os serviços - botão fica com o badge "S" <em>aqui o ideal era botar como fica o botão</em> </p>
+</li>
+<li>
+<p>Um ou mais recursos selecionados - botão fica com o badge "2" <em>aqui o ideal era botar como fica o botão</em> </p>
+</li>
+</ul>
+<p>Ao aplicar um desses filtros, as cores das tarefas refletirão o pior caso de atendimento dentro do conjunto filtrado.  </p>
 <h3 id="zoom">Zoom</h3>
-<p>Aumenta ou diminui o horizonte visualizado na tela do cronograma.</p>
+<p>Permite ajustar a quantidade de períodos exibidos na linha do tempo. </p>
+<ul>
+<li>
+<p>Reduzir o zoom: amplia o horizonte temporal, exibindo mais anos.  </p>
+</li>
+<li>
+<p>Aumentar o zoom: detalha períodos menores, focando em um ano específico.  </p>
+</li>
+</ul>
+<h3 id="filtro-confirmar-se-as-categorias-listadas-estao-corretas">Filtro <em>(confirmar se as categorias listadas estão corretas)</em></h3>
+<p>Permite filtrar as tarefas de acordo com as seguintes categorias: </p>
+<ul>
+<li>
+<p>Cluster</p>
+</li>
+<li>
+<p>Bacia  </p>
+</li>
+<li>
+<p>Projeto</p>
+</li>
+<li>
+<p>Tipo de serviço</p>
+</li>
+<li>
+<p>Tipo de tarefa  </p>
+</li>
+<li>
+<p>Atendimento padrão</p>
+</li>
+</ul>
+<p>O filtro funciona como uma interseção entre as categorias selecionadas.  </p>
 <h3 id="resumo">Resumo</h3>
-<p>Abre uma aba lateral de resumo na qual temos as informações da quantidade total de tarefas, e quantidade e percentual de tarefas atendidas, não atendidas e não calculadas. Além disso, essa aba também funciona como um tipo de filtro, no qual as tarefas que não estão selecionadas ficam esmaecidas.</p>
+<p>Permite visualizar o indicador de quantidade de tarefas por atendimento ID Recurso. Esse painel lateral também funciona como um filtro de tarefas.</p>
 
 
 
 
 
 
+
+  
+  
 
 
 
