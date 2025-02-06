@@ -9,13 +9,3 @@
   --logo-light: url('docs/Simbolo.png'); /* Logo para o modo claro */
   --logo-dark: url('docs/Vector.png');  /* Logo para o modo escuro */
 }
-
-.md-header .md-logo {
-  background-image: var(--logo-light);
-}
-
-@media (prefers-color-scheme: dark) {
-  .md-header .md-logo {
-      background-image: var(--logo-dark);
-  }
-}
