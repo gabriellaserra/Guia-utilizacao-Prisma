@@ -19,7 +19,8 @@ theme:
 #extra_css:
   #- extra.css
 nav:
-  - Página Inicial: 'index.md'
+  - Página Inicial: 
+    file: 'index.md'
     icon:
       tag:
         <identifier>: material/tag 
