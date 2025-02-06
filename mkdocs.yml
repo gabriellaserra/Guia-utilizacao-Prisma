@@ -34,5 +34,4 @@ nav:
   - Visão contratual: 'visaocontratual.md'
 extra_css:
   - css/extra.css
-plugins:
-  - tags
+
