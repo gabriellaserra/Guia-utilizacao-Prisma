@@ -8,6 +8,7 @@ Nesta interface, são exibidas as seções de **Demanda** e **Oferta**, com as s
 
 ## Demanda
 Exibe a lista de atividades que demandam o recurso. As informações incluem:  
+
 - PG
 
 - Tipo de Tarefa
@@ -59,7 +60,7 @@ Exibe a lista de **ofertas** dos materiais. As informações incluem:
 ## Funcionalidades
 
 ### Incluir Contingentes
-Permite visualizar a tabela com as atividades e recursos contingentes. *(Confirmar se a exibição é para atividades ou recursos.)*  
+Permite visualizar a tabela com os recursos contingentes.  
 
 ### Selecionar Recurso
 Permite alterar os materiais que estão sendo visualizados. 

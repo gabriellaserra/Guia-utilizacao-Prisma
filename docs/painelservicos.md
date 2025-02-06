@@ -45,7 +45,7 @@ Exibe a lista de **disponibilidade** dos serviços. As informações incluem:
 
 ### Incluir Contingentes
 
-Permite visualizar a tabela com as atividades e recursos contingentes. *(Confirmar se a exibição é para atividades ou recursos.)*  
+Permite visualizar a tabela com os recursos contingentes.  
 
 ### Selecionar Recurso
 
