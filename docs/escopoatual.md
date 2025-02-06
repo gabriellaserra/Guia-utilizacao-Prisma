@@ -6,6 +6,8 @@ A funcionalidade de acessar escopo atual também conta com uma aba lateral que c
 
 ![alt text](image-9.png)
 
+## Funcionalidades
+
 As funções do cronograma se concentram na parte superior direita da tela, são elas:
 
 - Informação: essa funcionalidade apresenta ao usuário informações referentes ao cache como “descrição”, “atualizado em”, “oferta de materiais atualizada em” e “disponibilidade de serviços atualizada em” com relação ao escopo atual.

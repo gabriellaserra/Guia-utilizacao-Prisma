@@ -4,6 +4,8 @@ Esta aba poderá ser usada pelo usuário para acompanhar a contratação. Nela �
 
 Vale ressaltar ainda que, onde tinham sondas nos demais cronogramas, do lado esquerdo da tela, para separar as tarefas de forma que cada linha representava uma sonda e as tarefas atreladas a ela. Neste cronograma no lugar de sondas temos bens e serviços, com a mesma disposição, onde cada linha representa um bem/serviço e os contratos atrelados a ele.
 
+## Funcionalidades
+
 Esta tela possui as seguintes funcionalidades:
 
 - Zoom:  essa funcionalidade aumenta ou diminui o horizonte visualizado na tela do cronograma.

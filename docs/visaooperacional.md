@@ -4,6 +4,8 @@ Nesta aba o usuário poderá acompanhar a prontidão através de um cronograma s
 
 ![alt text](image-11.png)
 
+## Funcionalidades
+
 Este cronograma possui as seguintes funcionalidades:
 
 - Zoom:  essa funcionalidade aumenta ou diminui o horizonte visualizado na tela do cronograma.
