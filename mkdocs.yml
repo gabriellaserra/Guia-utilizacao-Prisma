@@ -22,15 +22,17 @@ nav:
     - 'Gantt': 'ganttcenario.md'
     - 'Painel de Serviços': 'painelservicos.md'
     - 'Painel de Materiais': 'painelmateriais.md'
-  - Abrir Cenário: 'abrircenario.md'
-  - Gerar Cenário: 'gerarcenario.md'
+  - Abrir cenário: 'abrircenario.md'
+  - Gerar cenário: 'gerarcenario.md'
   - Acessar Escopo Atual: 
     - 'Gantt': 'escopoatual.md'
     - 'Painel de Serviços': 'painelservicos.md'
     - 'Painel de Materiais': 'painelmateriais.md'
   - Painel de Publicações: 'publicacoes.md'
-  - Visão Operacional: 'visaooperacional.md'
-  - Visão Médio-Prazo: 'visaomedioprazo.md'
-  - Visão Contratual: 'visaocontratual.md'
+  - Visão operacional: 'visaooperacional.md'
+  - Visão médio-prazo: 'visaomedioprazo.md'
+  - Visão contratual: 'visaocontratual.md'
 extra_css:
   - css/extra.css
+plugins:
+  - tags

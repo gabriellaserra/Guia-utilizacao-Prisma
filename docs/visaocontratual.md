@@ -1,4 +1,8 @@
 # Visão Contratual
+---
+tags:
+  - CROSS
+---
 
 **Integração com o CROSS** *(inserir tag aqui)*  
 
