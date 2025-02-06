@@ -11,5 +11,3 @@ Na página inicial do Prisma o usuário poderá escolher entre as três opções
 Além disso, o usuário também terá acesso a painéis estáticos, como: [Painel de Publicações](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/publicacoes/), [Visão operacional](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/visaooperacional/), [Visão médio-prazo](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/visaomedioprazo/) e [Visão contratual](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/visaocontratual/).
 
 ![alt text](image.png)
-
-![alt text](SimuladorDeCenarios.gif)

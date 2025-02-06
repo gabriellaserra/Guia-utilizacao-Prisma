@@ -1,21 +1,65 @@
 # Visão Operacional
 
-Nesta aba o usuário poderá acompanhar a prontidão através de um cronograma similar ao cronograma encontrado em escopo atual, a diferença é que aqui, temos mais classificações, não se limitando apenas a atende, não atende e calculado, neste cronograma uma tarefa pode ser classificada em: aguardando apontamento de recursos, analisando alternativas, pendente, não atende, atende, atende com ressalvas e não se aplica. Sendo cada uma dessas alternativas representada por uma cor no cronograma. Ao passar o mouse em cima da tarefa é possível visualizar no tooltip a classificação correspondente a cor da tarefa de interesse.
+**Integração com o PRONT** *(inserir tag aqui)*  
 
-![alt text](image-11.png)
+Este painel permite a visualização das **Respostas de Prontidão** registradas no PRONT.  
+
+Nesta interface, é exibido um cronograma em formato Gantt, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  
+
+A cor das tarefas varia conforme a resposta de prontidão, refletindo o pior caso entre as respostas do grupo.  
 
 ## Funcionalidades
 
-Este cronograma possui as seguintes funcionalidades:
+### Tooltip
 
-- Zoom:  essa funcionalidade aumenta ou diminui o horizonte visualizado na tela do cronograma.
+Exibe informações adicionais ao passar o mouse sobre uma alocação.  
 
-- Resumo: essa funcionalidade abre uma aba lateral de resumo na qual temos as informações da quantidade total de tarefas, e quantidade e percentual de tarefas atendidas, não atendidas e não calculadas. Além disso, essa aba também funciona como um tipo de filtro, no qual as tarefas que não estão selecionadas ficam esmaecidas.
+### Painel Lateral de Detalhes
 
-- Filtro: funcionalidade que permite ao usuário filtrar as tarefas por cluster, bacia, projeto, tipo de serviço, tipo de tarefa e atendimento padrão. Vale ressaltar que podem ser selecionadas mais de uma opção nesses filtros e os filtros podem ser sobrepostos.
+Permite visualizar mais informações ao clicar sobre uma alocação. As seções disponíveis são:  
+- Resposta: detalhes sobre as respostas de cada grupo.  
 
-- Tarefas consideradas no atendimento: funcionalidade que permite ao usuário selecionar as opções de considerar tarefa, recurso ou grupo específico.
+- Recurso: informações sobre as atividades e recursos apontados.  
 
-Nesta tela as diferenças que valem ressaltar quando comparadas as telas já citadas, é que aqui não temos painel de materiais e serviços na aba lateral à esquerda, temos apenas a opção de cronograma. 
+- Detalhes: dados da tarefa.  
 
-Além disso, nesta tela também temos um botão onde o usuário escolhe entre resposta e recomendação, que muda a disposição do cronograma, porém o botão de recomendação só estará disponível para usuários administradores.
+### Modo de Visualização
+
+Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis são:  
+
+- Todas as tarefas.  
+
+- Todas as tarefas de um Grupo.  
+
+- Todas as tarefas relacionadas a um ou mais Recursos.  
+
+Ao aplicar um desses filtros, as cores das tarefas refletirão o pior caso de resposta dentro do conjunto filtrado.  
+
+### Zoom
+
+Permite ajustar a quantidade de períodos exibidos na linha do tempo.  
+
+- Reduzir o zoom: amplia o horizonte temporal, exibindo mais anos.  
+
+- Aumentar o zoom: detalha períodos menores, focando em um ano específico.  
+
+### Filtro * 
+Permite filtrar as tarefas de acordo com as seguintes categorias:  
+
+- Cluster
+
+- Bacia  
+
+- Projeto
+
+- Tipo de serviço
+
+- Tipo de tarefa  
+
+- Atendimento padrão
+
+O filtro funciona como uma interseção entre as categorias selecionadas.  
+
+![alt text](image-11.png)
+
+
