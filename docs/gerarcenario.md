@@ -1,11 +1,23 @@
 # Gerar Cenário
 
-Ao clicar em gerar cenário, o usuário escolherá entre as opções de criar um cenário a partir dos dados da última publicação de escopo, que é uma foto atualizada quinzenalmente, ou do escopo atual que é um filme atualizado diariamente, cuja fonte de integração é o Cronoweb Recursos. 
+Esta tela permite a criação de um **novo cenário**.  
 
-Um cenário seria um cronograma referente a última atualização da fonte escolhida na tela de gerar cenário, que permite ao usuário visualizar todas as tarefas que estão sendo executadas a partir de hoje.  
+As fontes disponíveis para a criação de cenários são:  
+- **Escopo Atual**  
+- **Última Publicação de Escopo**  
 
-Nesta tela, temos ainda as informações dos dados do cenário, que são: origem, data de criação, criado por e fonte.
+Ambas as fontes são provenientes do **CW Recursos** *(inserir tag aqui)*.  
 
-Além disso, terá um espaço disponível para que o usuário escolha o nome do cenário (sendo essa uma informação obrigatória), a descrição do cenário (informação opcional), a data de criação (data na qual o usuário está gerando o cenário) e o horizonte, que por padrão estará em 24 meses, mas poderá ser alterado pelo usuário.
+Informações para Criação de Novo Cenário
+Para gerar um cenário, o usuário deve obrigatoriamente informar:  
+- **Nome** do cenário.  
+- **Horizonte** – definido por padrão como **24 meses**.  
+
+Todos os cenários são criados a partir do **dia 01 do mês corrente**.  
+
+## Funcionalidade
+
+### Criar Cenário
+Permite gerar um novo cenário de estudo, possibilitando a simulação de alternativas de cronograma em um ambiente exclusivo, sem impactar os dados oficiais. 
 
 ![alt text](image-1.png)
