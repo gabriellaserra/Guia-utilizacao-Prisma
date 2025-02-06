@@ -1,6 +1,8 @@
 # Visão Operacional
-
-**Integração com o PRONT** *(inserir tag aqui)*  
+---
+tags:
+  - PRONT
+---
 
 Este painel permite a visualização das **Respostas de Prontidão** registradas no PRONT.  
 

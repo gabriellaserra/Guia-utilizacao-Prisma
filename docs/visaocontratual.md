@@ -1,10 +1,8 @@
+# Visão Contratual
 ---
 tags:
   - CROSS
 ---
-# Visão Contratual
-
-**Integração com o CROSS** *(inserir tag aqui)*  
 
 Este painel permite a visualização do **Acompanhamento Contratual de Bens e Serviços** realizado no CROSS.  
 
