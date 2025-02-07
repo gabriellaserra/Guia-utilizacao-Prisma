@@ -55,13 +55,9 @@ Ao confirmar, as tarefas serão movidas para o local escolhido, todas de forma c
 ![alt text](<imagens/mover_mais_de_uma_tarefa_2.png>)
 
 ### Incluir Contingentes
+![alt text](icons/incluir_contingente.svg)
 
 Permite visualizar a tabela com os recursos contingentes.  
-
-<h1 style="display: flex; align-items: center;">
-  <img src="icons/recalcular.svg" alt="Descrição da imagem" style="height: 30px; margin-right: 10px;">
-  Cálculo de Atendimento
-</h1>
 
 ### Cálculo de Atendimento
 ![alt text](icons/recalcular.svg)
