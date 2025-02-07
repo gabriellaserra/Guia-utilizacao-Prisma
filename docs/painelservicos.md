@@ -44,10 +44,12 @@ Exibe a lista de **disponibilidade** dos serviços. As informações incluem:
 ## Funcionalidades
 
 ### Incluir Contingentes
+![alt text](icons/incluir_contingente.svg)
 
 Permite visualizar a tabela com os recursos contingentes.  
 
 ### Selecionar Recurso
+![alt text](icons/servico.svg)
 
 Permite alterar o serviço que está sendo visualizado.  
 

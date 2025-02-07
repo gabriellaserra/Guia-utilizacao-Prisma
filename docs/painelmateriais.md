@@ -60,7 +60,11 @@ Exibe a lista de **ofertas** dos materiais. As informações incluem:
 ## Funcionalidades
 
 ### Incluir Contingentes
+![alt text](icons/incluir_contingente.svg)
+
 Permite visualizar a tabela com os recursos contingentes.  
 
 ### Selecionar Recurso
+![alt text](icons/material.svg)
+
 Permite alterar os materiais que estão sendo visualizados. 

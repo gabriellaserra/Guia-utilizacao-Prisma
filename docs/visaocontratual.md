@@ -11,6 +11,7 @@ Nesta interface, é exibido um cronograma em formato Gantt não editável, no qu
 ## Funcionalidades
 
 ### Zoom
+![alt text](icons/zoom.svg)
 
 Permite ajustar a quantidade de períodos exibidos na linha do tempo.
 
@@ -19,6 +20,8 @@ Permite ajustar a quantidade de períodos exibidos na linha do tempo.
 - Aumentando o zoom: detalha períodos menores, focando em um ano específico.  
 
 ### Ocultar do painel
+![alt text](icons/ocultar.svg)
+
 Personaliza a exibição dos atendimentos no gráfico Gantt.  
 
 O usuário pode optar por ocultar:  
@@ -29,6 +32,8 @@ O usuário pode optar por ocultar:
 
 - Ambos  
 
-### Legenda 
+### Legenda
+![alt text](icons/legenda.svg) 
+
 Disponibiliza um recurso visual que facilita a interpretação do código de cores utilizado no gráfico Gantt.  
 

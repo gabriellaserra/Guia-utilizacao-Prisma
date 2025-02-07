@@ -28,6 +28,7 @@ Permite visualizar mais informações ao clicar sobre uma alocação. As seçõe
 - Detalhes: dados da tarefa.  
 
 ### Modo de Visualização
+![alt text](icons/visualizacao_atendimento.svg)
 
 Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis são:  
 
@@ -40,6 +41,7 @@ Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis
 Ao aplicar um desses filtros, as cores das tarefas refletirão o pior caso de resposta dentro do conjunto filtrado.  
 
 ### Zoom
+![alt text](icons/zoom.svg)
 
 Permite ajustar a quantidade de períodos exibidos na linha do tempo.  
 
@@ -48,6 +50,7 @@ Permite ajustar a quantidade de períodos exibidos na linha do tempo.
 - Aumentar o zoom: detalha períodos menores, focando em um ano específico.  
 
 ### Filtro 
+![alt text](icons/filtro.svg)
 
 Permite filtrar as tarefas de acordo com as seguintes categorias:  
 
@@ -66,10 +69,12 @@ Permite filtrar as tarefas de acordo com as seguintes categorias:
 O filtro funciona como uma interseção entre as categorias selecionadas.  
 
 ### Filtro de Sondas
+![alt text](icons/filtro_sonda.svg)
 
 Permite filtrar as sondas do cronograma.
 
 ### Resumo
+![alt text](icons/resumo.svg)
 
 Permite visualizar o indicador de quantidade de tarefas por resposta de prontidão. Esse painel lateral também funciona como um filtro de tarefas.
 
