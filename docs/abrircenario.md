@@ -2,7 +2,7 @@
 
 Esta tela permite visualizar a **lista de cenários** criados pelo usuário, bem como aqueles aos quais ele tem acesso.  
 
-![alt text](imagens/image-2.png)
+![alt text](imagens/abrir_cenario.png)
 
 Para abrir um cenário, basta **clicar sobre a linha correspondente**.  
 

@@ -20,7 +20,7 @@ Nesse cronograma é possível o usuário mover uma tarefa ou múltiplas tarefas 
 
 Permite exibir informações adicionais ao passar o mouse sobre uma alocação.  
 
-![alt text](<imagens/Captura de tela 2025-02-07 094151.png>)
+![alt text](<imagens/tooltip_tarefa.png>)
 
 ### Painel Lateral de Detalhes
 
@@ -30,29 +30,29 @@ Permite visualizar informações detalhadas ao clicar sobre uma alocação. As s
 
 - Atendimento: apresenta informações sobre as atividades e recursos envolvidos.  
 
-![alt text](<imagens/Captura de tela 2025-02-07 094332.png>)
+![alt text](<imagens/painel_lateral_detalhes.png>)
 
 ### Mover uma ou múltiplas tarefas 
 Via Drag-and-Drop
 
 Permite ao usuário mover uma tarefa arrastando-a para o local desejado no cronograma. Após a tarefa ser reposicionada, um pop-up de confirmação exibirá a data de início e a sonda para a qual a tarefa foi movida. O usuário deve confirmar a edição para que a tarefa seja efetivamente movida.
 
-![alt text](<imagens/Captura de tela 2025-02-07 085621.png>)
+![alt text](<imagens/mover_tarefa_1.png>)
 
-![alt text](<imagens/Captura de tela 2025-02-07 085656.png>)
+![alt text](<imagens/mover_tarefa_2.png>)
 
-![alt text](<imagens/Captura de tela 2025-02-07 085710.png>)
+![alt text](<imagens/mover_tarefa_3.png>)
 
 ### Selecionando as Tarefas
 Permite ao usuário selecionar uma ou várias tarefas, clicando no checkbox no canto superior esquerdo da alocação. 
 
 No topo da tela, aparecerá um contador com a quantidade de tarefas selecionadas, juntamente com um botão de editar. Ao clicar em editar, o usuário poderá definir a data de início e a sonda para a qual as tarefas serão movidas. 
 
-![alt text](<imagens/Captura de tela 2025-02-07 094910.png>)
+![alt text](<imagens/mover_mais_de_uma_tarefa_1.png>)
 
 Ao confirmar, as tarefas serão movidas para o local escolhido, todas de forma consecutiva e em ordem de data de início.
 
-![alt text](<imagens/Captura de tela 2025-02-07 094813.png>)
+![alt text](<imagens/mover_mais_de_uma_tarefa_2.png>)
 
 ### Incluir Contingentes
 
@@ -118,4 +118,4 @@ O filtro funciona como uma interseção entre as categorias selecionadas.
 
 Permite visualizar o indicador de quantidade de tarefas por atendimento ID Recurso. Esse painel lateral também funciona como um filtro de tarefas.
 
-![alt text](<imagens/Captura de tela 2025-02-07 095943.png>)
+![alt text](<imagens/aba_resumo.png>)

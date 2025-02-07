@@ -3,8 +3,8 @@ site_url: https://mydomain.org/guia_utilizacao
 theme:
   name:  material   
   language: pt-BR
-  logo: Vector.png
-  favicon: Simbolo.png
+  logo: logo_prisma_branco.png
+  favicon: logo_prisma_colorido.png
   palette: 
     - scheme: default
       primary: 'white'
