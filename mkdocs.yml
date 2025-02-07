@@ -1,0 +1,40 @@
+site_name: Guia de utilização - Prisma
+site_url: https://mydomain.org/guia_utilizacao
+theme:
+  name:  material   
+  language: pt-BR
+  logo: imagens/logo_prisma_branco.png
+  favicon: imagens/logo_prisma_colorido.png
+  palette: 
+    - scheme: default
+      primary: 'white'
+      toggle:
+        icon: material/weather-night
+        name: Modo noturno
+    - scheme: slate
+      primary: 'black'
+      toggle:
+        icon: material/weather-sunny
+        name: Modo claro
+nav:
+  - Página Inicial:  'index.md'
+  - Simulador de Cenários:
+    - 'Gantt': 'ganttcenario.md'
+    - 'Painel de Serviços': 'painelservicos.md'
+    - 'Painel de Materiais': 'painelmateriais.md'
+  - Abrir cenário: 'abrircenario.md'
+  - Gerar cenário: 'gerarcenario.md'
+  - Acessar Escopo Atual: 
+    - 'Gantt': 'escopoatual.md'
+    - 'Painel de Serviços': 'painelservicos.md'
+    - 'Painel de Materiais': 'painelmateriais.md'
+  - Painel de Publicações: 'publicacoes.md'
+  - Visão operacional: 'visaooperacional.md'
+  - Visão médio-prazo: 'visaomedioprazo.md'
+  - Visão contratual: 'visaocontratual.md'
+extra_css:
+  - css/extra.css
+plugins:
+  - search
+ 
+
