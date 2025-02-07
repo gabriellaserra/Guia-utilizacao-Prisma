@@ -13,7 +13,7 @@ Nesta interface, é exibida uma tabela contendo as seguintes informações:
 
 - Nome da Premissa *(exibir logotipo do DELFOS)*  
 
-- Nome ou Código do Recurso *(confirmar se o dado correto é "nome" ou "código")* *(exibir logotipo do DELFOS)*  
+- Recurso  *(exibir logotipo do DELFOS)*  
 
 - Frentes Atuais *(exibir logotipo da Árvore de Recursos)* – quantidade de serviços atualmente disponíveis para atendimento. 
 

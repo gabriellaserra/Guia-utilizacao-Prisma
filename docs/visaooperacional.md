@@ -20,6 +20,7 @@ Exibe informações adicionais ao passar o mouse sobre uma alocação.
 ### Painel Lateral de Detalhes
 
 Permite visualizar mais informações ao clicar sobre uma alocação. As seções disponíveis são:  
+
 - Resposta: detalhes sobre as respostas de cada grupo.  
 
 - Recurso: informações sobre as atividades e recursos apontados.  
@@ -61,6 +62,8 @@ Permite filtrar as tarefas de acordo com as seguintes categorias:
 - Tipo de tarefa  
 
 - Atendimento padrão
+
+- Sondas
 
 O filtro funciona como uma interseção entre as categorias selecionadas.  
 

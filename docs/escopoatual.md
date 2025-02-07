@@ -39,13 +39,17 @@ Permite visualizar a tabela com os recursos contingentes.
 ### Visualização de Atendimento
 Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis são:  
 
-- Todos os recursos - botão fica sem o badge *aqui o ideal era botar como fica o botão*  
+- Todos os recursos - botão fica sem o badge 
+![alt text](image-14.png) 
 
-- Todos os materiais - botão fica com o badge "M" *aqui o ideal era botar como fica o botão* 
+- Todos os materiais - botão fica com o badge "M" 
+![alt text](image-15.png)
 
-- Todos os serviços - botão fica com o badge "S" *aqui o ideal era botar como fica o botão* 
+- Todos os serviços - botão fica com o badge "S" 
+![alt text](image-16.png)
 
-- Um ou mais recursos selecionados - botão fica com o badge "2" *aqui o ideal era botar como fica o botão* 
+- Um ou mais recursos selecionados - botão fica com o badge "2" 
+![alt text](image-17.png) 
 
 Ao aplicar um desses filtros, as cores das tarefas refletirão o pior caso de atendimento dentro do conjunto filtrado.  
 
@@ -57,7 +61,7 @@ Permite ajustar a quantidade de períodos exibidos na linha do tempo.
 
 - Aumentar o zoom: detalha períodos menores, focando em um ano específico.  
 
-### Filtro *(confirmar se as categorias listadas estão corretas)*  
+### Filtro 
 Permite filtrar as tarefas de acordo com as seguintes categorias: 
 
 - Cluster
@@ -71,6 +75,8 @@ Permite filtrar as tarefas de acordo com as seguintes categorias:
 - Tipo de tarefa  
 
 - Atendimento padrão
+
+- Sondas
 
 O filtro funciona como uma interseção entre as categorias selecionadas.  
 

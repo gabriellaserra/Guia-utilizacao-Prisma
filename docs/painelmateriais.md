@@ -25,7 +25,7 @@ Exibe a lista de atividades que demandam o recurso. As informações incluem:
 
 - Contingente 
 
-- Status da Atividade – *(listar opções aqui)*  
+- Status da Atividade – Atendido, Não atendido, Não calculado 
 
 Nota: Não são exibidas tarefas que já ocorreram (no passado).  
 
