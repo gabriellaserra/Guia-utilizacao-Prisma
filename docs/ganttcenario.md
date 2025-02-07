@@ -30,7 +30,7 @@ Permite visualizar informações detalhadas ao clicar sobre uma alocação. As s
 
 - Atendimento: apresenta informações sobre as atividades e recursos envolvidos.  
 
-![alt text](<Captura de tela 2025-02-07 094332.png>)
+![alt text](<Captura de tela 2025-02-07 094332.png>){ width=50% }
 
 ### Mover uma ou múltiplas tarefas 
 Via Drag-and-Drop
