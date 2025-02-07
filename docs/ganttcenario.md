@@ -63,7 +63,7 @@ Permite visualizar a tabela com os recursos contingentes.
 
 Permite recalcular o cronograma após edições, avaliando o impacto das alterações no atendimento das tarefas. As cores das tarefas podem mudar conforme o novo cálculo.  
 
-Sempre que houver uma alteração no cronograma, o botão será sinalizado com um badge *(inserir ícone do botão aqui)*, indicando que o cálculo de atendimento está desatualizado.
+Sempre que houver uma alteração no cronograma, o botão será sinalizado com um badge ![*(inserir ícone do botão aqui)*](icons/badge_recalcular.svg), indicando que o cálculo de atendimento está desatualizado.
 
 ### Visualização de Atendimento
 

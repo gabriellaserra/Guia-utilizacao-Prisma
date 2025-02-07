@@ -1,5 +1,5 @@
 # Visão Operacional
-<small>Integrado com: </small> ![alt text](tags/tag_pront.svg)
+<small>Integrado com </small> ![alt text](tags/tag_pront.svg)
 
 Este painel permite a visualização das **Respostas de Prontidão** registradas no PRONT.  
 

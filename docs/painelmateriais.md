@@ -7,7 +7,7 @@ O objetivo deste painel é proporcionar mais clareza e transparência na anális
 Nesta interface, são exibidas as seções de **Demanda** e **Oferta**, com as seguintes informações:  
 
 ## Demanda
-Integrado com: ![alt text](tags/tag_cw_recursos.svg)
+<small>Integrado com </small> ![alt text](tags/tag_cw_recursos.svg)
 
 Exibe a lista de atividades que demandam o recurso. As informações incluem:  
 
@@ -32,7 +32,7 @@ Exibe a lista de atividades que demandam o recurso. As informações incluem:
 Nota: Não são exibidas tarefas que já ocorreram (no passado).  
 
 ## Oferta
-Integrado com SAP via ![alt text](tags/tag_cross.svg)
+<small>Integrado com SAP via </small> ![alt text](tags/tag_cross.svg)
 
 Exibe a lista de **ofertas** dos materiais. As informações incluem:  
 

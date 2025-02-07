@@ -1,5 +1,5 @@
 # Visão Contratual
-Integrado com: ![alt text](tags/tag_cross.svg)
+<small>Integrado com </small> ![alt text](tags/tag_cross.svg)
 
 Este painel permite a visualização do **Acompanhamento Contratual de Bens e Serviços** realizado no CROSS.  
 

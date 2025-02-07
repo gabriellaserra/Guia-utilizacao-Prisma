@@ -1,5 +1,5 @@
 # Acessar Escopo Atual
-Integrado com: ![alt text](tags/tag_cw_recursos.svg)
+<small>Integrado com </small> ![alt text](tags/tag_cw_recursos.svg)
 
 Este painel permite visualizar o **Escopo Atual** disponível no CW Recursos. As cores indicam o nível de atendimento de Recursos (materiais e serviços).  
 
