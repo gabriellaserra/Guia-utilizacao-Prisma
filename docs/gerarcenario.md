@@ -20,4 +20,4 @@ Todos os cenários são criados a partir do **dia 01 do mês corrente**.
 ### Criar Cenário
 Permite gerar um novo cenário de estudo, possibilitando a simulação de alternativas de cronograma em um ambiente exclusivo, sem impactar os dados oficiais. 
 
-![alt text](image-1.png)
+![alt text](imagens/image-1.png)

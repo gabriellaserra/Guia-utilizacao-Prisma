@@ -10,4 +10,4 @@ O PRISMA é composto pelo [Simulador de Cenários](https://gabriellaserra.github
 
 Os Painéis também podem ser acessados pela página inicial, pelos seguintes atalhos: [Painel de Publicações](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/publicacoes/), [Visão operacional](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/visaooperacional/), [Visão médio-prazo](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/visaomedioprazo/) e [Visão contratual](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/visaocontratual/).
 
-![alt text](image.png)
+![alt text](imagens/image.png)

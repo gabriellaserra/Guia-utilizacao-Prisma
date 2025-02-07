@@ -1,5 +1,5 @@
 # Visão Médio Prazo
-<small>Integrado com </small> ![alt text](tags/tag_arvore_recursos.svg)
+<small>Integrado com </small> ![alt text](tags/tag_delfos.svg) ![alt text](tags/tag_arvore_recursos.svg)
 
 Este painel permite a visualização do **Acompanhamento do Atendimento de Frentes de Serviços**, considerando a demanda diária determinística calculada pelo DELFOS.   
 
