@@ -15,7 +15,7 @@ Nesta interface, é exibida uma tabela contendo as seguintes informações:
 - Nome da Premissa 
 ![delfos_24x24.svg](icons/delfos_24x24.svg) 
 
-- Recurso  
+- Recurso 
 ![delfos_24x24.svg](icons/delfos_24x24.svg) 
 
 - Frentes Atuais ![exibir logotipo da Árvore de Recursos](icons/arvore_16x16.svg) – quantidade de serviços atualmente disponíveis para atendimento. 

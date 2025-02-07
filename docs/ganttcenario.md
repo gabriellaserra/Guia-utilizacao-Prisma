@@ -59,6 +59,7 @@ Ao confirmar, as tarefas serão movidas para o local escolhido, todas de forma c
 Permite visualizar a tabela com os recursos contingentes.  
 
 ### Simular Atendimento (Recalcular)
+![alt text](icons/recalcular.svg)
 
 Permite recalcular o cronograma após edições, avaliando o impacto das alterações no atendimento das tarefas. As cores das tarefas podem mudar conforme o novo cálculo.  
 
@@ -68,16 +69,16 @@ Sempre que houver uma alteração no cronograma, o botão será sinalizado com u
 
 Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis são:  
 
-- Todos os recursos - botão fica sem o badge 
+- Todos os recursos 
 ![alt text](icons/visualizacao_atendimento.svg)
 
-- Todos os materiais - botão fica com o badge "M" 
+- Todos os materiais 
 ![alt text](icons/badge_materiais.svg)
 
-- Todos os serviços - botão fica com o badge "S" 
+- Todos os serviços 
 ![alt text](icons/badge_servico.svg)
 
-- Um ou mais recursos selecionados - botão fica com o badge "2" 
+- Um ou mais recursos selecionados 
 ![alt text](icons/badge_selecionar_recurso.svg)
 
 Ao aplicar um desses filtros, as cores das tarefas refletirão o pior caso de atendimento dentro do conjunto filtrado.  

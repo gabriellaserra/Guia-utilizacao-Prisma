@@ -33,27 +33,29 @@ Permite visualizar informações detalhadas ao clicar sobre uma alocação. As s
 - Atendimento: apresenta informações sobre as atividades e recursos envolvidos.  
 
 ### Incluir Contingentes
+![alt text](icons/incluir_contingente.svg)
 
 Permite visualizar a tabela com os recursos contingentes.  
 
 ### Visualização de Atendimento
 Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis são:  
 
-- Todos os recursos - botão fica sem o badge 
+- Todos os recursos 
  ![alt text](icons/visualizacao_atendimento.svg)
 
-- Todos os materiais - botão fica com o badge "M" 
+- Todos os materiais 
 ![alt text](icons/badge_materiais.svg)
 
-- Todos os serviços - botão fica com o badge "S" 
+- Todos os serviços 
 ![alt text](icons/badge_servico.svg)
 
-- Um ou mais recursos selecionados - botão fica com o badge "2" 
+- Um ou mais recursos selecionados 
 ![alt text](icons/badge_selecionar_recurso.svg)
 
 Ao aplicar um desses filtros, as cores das tarefas refletirão o pior caso de atendimento dentro do conjunto filtrado.  
 
 ### Zoom
+![alt text](icons/zoom.svg)
 
 Permite ajustar a quantidade de períodos exibidos na linha do tempo. 
 
@@ -62,6 +64,8 @@ Permite ajustar a quantidade de períodos exibidos na linha do tempo.
 - Aumentar o zoom: detalha períodos menores, focando em um ano específico.  
 
 ### Filtro 
+![alt text](icons/filtro.svg)
+
 Permite filtrar as tarefas de acordo com as seguintes categorias: 
 
 - Cluster
@@ -81,4 +85,6 @@ Permite filtrar as tarefas de acordo com as seguintes categorias:
 O filtro funciona como uma interseção entre as categorias selecionadas.  
 
 ### Resumo
+![alt text](icons/resumo.svg)
+
 Permite visualizar o indicador de quantidade de tarefas por atendimento ID Recurso. Esse painel lateral também funciona como um filtro de tarefas.
