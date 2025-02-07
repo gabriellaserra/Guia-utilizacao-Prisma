@@ -37,3 +37,4 @@ extra_css:
 plugins:
   - tags
   - search
+  - with-pdf
