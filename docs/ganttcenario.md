@@ -20,6 +20,8 @@ Nesse cronograma é possível o usuário mover uma tarefa ou múltiplas tarefas 
 
 Permite exibir informações adicionais ao passar o mouse sobre uma alocação.  
 
+![alt text](<Captura de tela 2025-02-07 094151.png>)
+
 ### Painel Lateral de Detalhes
 
 Permite visualizar informações detalhadas ao clicar sobre uma alocação. As seções disponíveis são:  
@@ -27,6 +29,8 @@ Permite visualizar informações detalhadas ao clicar sobre uma alocação. As s
 - Identificação: exibe dados da tarefa.  
 
 - Atendimento: apresenta informações sobre as atividades e recursos envolvidos.  
+
+![alt text](<Captura de tela 2025-02-07 094332.png>)
 
 ### Mover uma ou múltiplas tarefas 
 Via Drag-and-Drop
@@ -40,11 +44,15 @@ Permite ao usuário mover uma tarefa arrastando-a para o local desejado no crono
 ![alt text](<Captura de tela 2025-02-07 085710.png>)
 
 ### Selecionando as Tarefas
-Permite ao usuário selecionar uma ou várias tarefas, clicando no checkbox no canto superior esquerdo da alocação. (Ideal colocar uma imagem)
+Permite ao usuário selecionar uma ou várias tarefas, clicando no checkbox no canto superior esquerdo da alocação. 
 
-No topo da tela, aparecerá um contador com a quantidade de tarefas selecionadas, juntamente com um botão de editar. Ao clicar em editar, o usuário poderá definir a data de início e a sonda para a qual as tarefas serão movidas. (Ideal colocar uma imagem)
+No topo da tela, aparecerá um contador com a quantidade de tarefas selecionadas, juntamente com um botão de editar. Ao clicar em editar, o usuário poderá definir a data de início e a sonda para a qual as tarefas serão movidas. 
+
+![alt text](<Captura de tela 2025-02-07 094910.png>)
 
 Ao confirmar, as tarefas serão movidas para o local escolhido, todas de forma consecutiva e em ordem de data de início.
+
+![alt text](<Captura de tela 2025-02-07 094813.png>)
 
 ### Incluir Contingentes
 
@@ -56,7 +64,6 @@ Permite recalcular o cronograma após edições, avaliando o impacto das altera�
 
 Sempre que houver uma alteração no cronograma, o botão será sinalizado com um badge *(inserir ícone do botão aqui)*, indicando que o cálculo de atendimento está desatualizado.
 
-
 ### Visualização de Atendimento
 
 Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis são:  
@@ -65,7 +72,7 @@ Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis
 ![alt text](image-14.png)
 
 - Todos os materiais - botão fica com o badge "M" 
-![alt text](image-15.png)
+![alt text](icon-button.svg)
 
 - Todos os serviços - botão fica com o badge "S" 
 ![alt text](image-16.png)
@@ -107,4 +114,3 @@ Permite visualizar o indicador de quantidade de tarefas por atendimento ID Recur
 
 ![alt text](image-4.png)
 
-![alt text](SimuladorDeCenarios.gif)
