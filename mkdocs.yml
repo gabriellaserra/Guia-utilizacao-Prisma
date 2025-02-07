@@ -38,3 +38,5 @@ plugins:
   - tags
   - search
   - with-pdf
+markdown_extensions:
+  - attr_list
