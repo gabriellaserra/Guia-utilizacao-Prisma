@@ -40,16 +40,16 @@ Permite visualizar a tabela com os recursos contingentes.
 Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis são:  
 
 - Todos os recursos - botão fica sem o badge 
-![alt text](image-14.png) 
+ 
 
 - Todos os materiais - botão fica com o badge "M" 
-![alt text](image-15.png)
+
 
 - Todos os serviços - botão fica com o badge "S" 
-![alt text](image-16.png)
+
 
 - Um ou mais recursos selecionados - botão fica com o badge "2" 
-![alt text](image-17.png) 
+
 
 Ao aplicar um desses filtros, as cores das tarefas refletirão o pior caso de atendimento dentro do conjunto filtrado.  
 
