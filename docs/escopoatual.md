@@ -1,7 +1,7 @@
 # Acessar Escopo Atual
 <small>Integrado com </small> ![alt text](tags/tag_cw_recursos.svg)
 
-Este painel permite visualizar o **Escopo Atual** disponível no CW Recursos. As cores indicam o nível de atendimento de Recursos (materiais e serviços).  
+Permite visualizar o **Escopo Atual** disponível no CW Recursos. As cores indicam o nível de atendimento de Recursos (materiais e serviços).  
 
 Nesta interface, é exibido um cronograma em formato Gantt não editável, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  
 

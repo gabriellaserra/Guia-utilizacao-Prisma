@@ -1,6 +1,6 @@
 # Gantt do Cenário
 
-Este painel permite visualizar o **cenário para estudo**. As cores indicam o nível de atendimento de Recursos (materiais e serviços).  
+Permite visualizar o **cenário para estudo**. As cores indicam o nível de atendimento de Recursos (materiais e serviços).  
 
 Nesta interface, é exibido um cronograma em formato Gantt editável, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  
 
@@ -58,7 +58,12 @@ Ao confirmar, as tarefas serão movidas para o local escolhido, todas de forma c
 
 Permite visualizar a tabela com os recursos contingentes.  
 
-### Simular Atendimento (Recalcular)
+<h1 style="display: flex; align-items: center;">
+  <img src="icons/recalcular.svg" alt="Descrição da imagem" style="height: 30px; margin-right: 10px;">
+  Cálculo de Atendimento
+</h1>
+
+### Cálculo de Atendimento
 ![alt text](icons/recalcular.svg)
 
 Permite recalcular o cronograma após edições, avaliando o impacto das alterações no atendimento das tarefas. As cores das tarefas podem mudar conforme o novo cálculo.  
