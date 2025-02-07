@@ -71,10 +71,10 @@ Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis
 - Todos os recursos - botão fica sem o badge 
 
 - Todos os materiais - botão fica com o badge "M" 
-![alt text](icon-button.svg)
+![alt text](icons/badge_materiais.svg)
 
 - Todos os serviços - botão fica com o badge "S" 
-
+![alt text](icons/badge_servico.svg)
 
 - Um ou mais recursos selecionados - botão fica com o badge "2" 
 
