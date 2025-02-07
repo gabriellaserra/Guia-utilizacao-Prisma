@@ -1,10 +1,5 @@
----
-tags:
-  - CW Recursos
-  - SAP via CROSS
-  - ÁRVORE DE RECURSOS
----
 # Acessar Escopo Atual
+Integrado com: ![alt text](tags/tag_cw_recursos.svg)
 
 Este painel permite visualizar o **Escopo Atual** disponível no CW Recursos. As cores indicam o nível de atendimento de Recursos (materiais e serviços).  
 

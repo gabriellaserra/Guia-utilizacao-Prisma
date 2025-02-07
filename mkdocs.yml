@@ -35,7 +35,6 @@ nav:
 extra_css:
   - css/extra.css
 plugins:
-  - tags
   - search
  
 

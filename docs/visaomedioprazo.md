@@ -1,9 +1,5 @@
----
-tags:
-  - DELFOS
-  - ÁRVORE DE RECURSOS
----
 # Visão Médio Prazo
+Integrado com: ![alt text](tags/tag_arvore_recursos.svg)
 
 Este painel permite a visualização do **Acompanhamento do Atendimento de Frentes de Serviços**, considerando a demanda diária determinística calculada pelo DELFOS.   
 

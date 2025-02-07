@@ -6,7 +6,7 @@ Ele permite criar múltiplas visões e obter insights valiosos para decisões es
 
 ##	Página inicial 
 
-O PRISMA é composto pelo [Simulador de Cenários](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/ganttcenario/), e por Painéis de análise com indicadores para o usuário. O Simulador possui três opções de fluxo de trabalho, acessados pela página inicial: [Abrir cenário](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/abrircenario/), [Gerar cenário](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/gerarcenario/) e [Acessar Escopo Atual](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/escopoatual/).
+O PRISMA é composto pelo [Simulador de Cenários](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/ganttcenario/), e por Painéis de análise com indicadores para o usuário. O Simulador possui três opções de fluxo de trabalho, acessados pela página inicial: [Acessar Escopo Atual](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/escopoatual/), [Abrir cenário](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/abrircenario/) e [Gerar cenário](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/gerarcenario/).
 
 Os Painéis também podem ser acessados pela página inicial, pelos seguintes atalhos: [Painel de Publicações](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/publicacoes/), [Visão operacional](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/visaooperacional/), [Visão médio-prazo](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/visaomedioprazo/) e [Visão contratual](https://gabriellaserra.github.io/Guia-utilizacao-Prisma/visaocontratual/).
 
