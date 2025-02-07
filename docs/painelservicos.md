@@ -25,7 +25,7 @@ Exibe a lista de atividades que demandam o recurso. As informações incluem:
 
 - Contingente 
 
-- Status da Atividade – *(listar opções aqui)*  
+- Status da Atividade: Atende, Não atende e Não calculado
 
 Nota: Não são exibidas tarefas que já ocorreram (no passado).  
 
@@ -51,4 +51,3 @@ Permite visualizar a tabela com os recursos contingentes.
 
 Permite alterar o serviço que está sendo visualizado.  
 
-![alt text](image-8.png)

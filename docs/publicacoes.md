@@ -8,4 +8,3 @@ Este painel permite ao usuário visualizar as informações mais recentes das fo
 
 - Resposta de Prontidão: fornece um resumo em tempo real das quantidades de tarefas por resposta de prontidão no PRONT.  
 
-![alt text](image-10.png)

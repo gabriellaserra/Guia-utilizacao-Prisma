@@ -29,7 +29,6 @@ O usuário pode optar por ocultar:
 
 - Ambos  
 
-### Legenda
+### Legenda ![alt text](icon-button.svg)
 Disponibiliza um recurso visual que facilita a interpretação do código de cores utilizado no gráfico Gantt.  
 
-![alt text](image-13.png)

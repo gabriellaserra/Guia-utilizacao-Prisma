@@ -69,16 +69,15 @@ Sempre que houver uma alteração no cronograma, o botão será sinalizado com u
 Permite filtrar as tarefas consideradas no atendimento. As opções disponíveis são:  
 
 - Todos os recursos - botão fica sem o badge 
-![alt text](image-14.png)
 
 - Todos os materiais - botão fica com o badge "M" 
 ![alt text](icon-button.svg)
 
 - Todos os serviços - botão fica com o badge "S" 
-![alt text](image-16.png)
+
 
 - Um ou mais recursos selecionados - botão fica com o badge "2" 
-![alt text](image-17.png)
+
 
 Ao aplicar um desses filtros, as cores das tarefas refletirão o pior caso de atendimento dentro do conjunto filtrado.  
 
@@ -112,5 +111,4 @@ O filtro funciona como uma interseção entre as categorias selecionadas.
 ### Resumo
 Permite visualizar o indicador de quantidade de tarefas por atendimento ID Recurso. Esse painel lateral também funciona como um filtro de tarefas.
 
-![alt text](image-4.png)
-
+![alt text](<Captura de tela 2025-02-07 095943.png>)

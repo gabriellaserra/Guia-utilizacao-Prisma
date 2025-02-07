@@ -27,6 +27,3 @@ Nesta interface, é exibida uma tabela contendo as seguintes informações:
 
 ### Incluir Contingentes  
 Permite visualizar a tabela com os recursos contingentes.  
-
-
-![alt text](image-12.png)

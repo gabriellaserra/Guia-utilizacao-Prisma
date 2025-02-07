@@ -53,6 +53,8 @@ Permite filtrar as tarefas de acordo com as seguintes categorias:
 
 - Cluster
 
+- Executante
+
 - Bacia  
 
 - Projeto
@@ -61,16 +63,16 @@ Permite filtrar as tarefas de acordo com as seguintes categorias:
 
 - Tipo de tarefa  
 
-- Atendimento padrão
-
-- Sondas
-
 O filtro funciona como uma interseção entre as categorias selecionadas.  
+
+### Filtro de Sondas
+
+Permite filtrar as sondas do cronograma.
 
 ### Resumo
 
 Permite visualizar o indicador de quantidade de tarefas por resposta de prontidão. Esse painel lateral também funciona como um filtro de tarefas.
 
-![alt text](image-11.png)
+
 
 

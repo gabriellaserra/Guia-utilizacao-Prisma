@@ -25,7 +25,7 @@ Exibe a lista de atividades que demandam o recurso. As informações incluem:
 
 - Contingente 
 
-- Status da Atividade – Atendido, Não atendido, Não calculado 
+- Status da Atividade: Estoque, Pedido, Contrato, Não atende e Não calculado.
 
 Nota: Não são exibidas tarefas que já ocorreram (no passado).  
 
@@ -64,9 +64,3 @@ Permite visualizar a tabela com os recursos contingentes.
 
 ### Selecionar Recurso
 Permite alterar os materiais que estão sendo visualizados. 
-
-![alt text](image-5.png)
-
-![alt text](image-6.png)
-
-![alt text](image-7.png)
