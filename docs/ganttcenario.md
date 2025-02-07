@@ -10,7 +10,7 @@ A cor das tarefas varia conforme o atendimento por ID Recurso, refletindo o pior
 
 - Não atende: não há recursos suficientes para atender a demanda.  
 
-- Não calculado: tarefas no passado não são calculadas.
+- Não calculado: tarefas no passado ou que não possuem recursos apontados.
 
 Nesse cronograma é possível o usuário mover uma tarefa ou múltiplas tarefas e visualizar como a alteração impacta no cálculo do atendimento de recursos.
 
