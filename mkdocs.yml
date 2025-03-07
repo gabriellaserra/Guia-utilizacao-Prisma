@@ -28,6 +28,10 @@ nav:
     - 'Gantt': 'escopoatual.md'
     - 'Painel de Serviços': 'painelservicos.md'
     - 'Painel de Materiais': 'painelmateriais.md'
+  - Última Publicação de Escopo: 
+    - 'Gantt': 'ultimapublicacaoescopo.md'
+    - 'Painel de Serviços': 'painelservicos.md'
+    - 'Painel de Materiais': 'painelmateriais.md'
   - Painel de Publicações: 'publicacoes.md'
   - Visão operacional: 'visaooperacional.md'
   - Visão médio-prazo: 'visaomedioprazo.md'
