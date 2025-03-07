@@ -24,7 +24,7 @@ nav:
     - 'Painel de Materiais': 'painelmateriais.md'
   - Abrir cenário: 'abrircenario.md'
   - Gerar cenário: 'gerarcenario.md'
-  - Acessar Escopo Atual: 
+  - Escopo Atual: 
     - 'Gantt': 'escopoatual.md'
     - 'Painel de Serviços': 'painelservicos.md'
     - 'Painel de Materiais': 'painelmateriais.md'
