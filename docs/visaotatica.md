@@ -1,7 +1,7 @@
 # Visão Tática
 <small>Integrado com </small> ![alt text](tags/tag_delfos.svg) ![alt text](tags/tag_arvore_recursos.svg)
 
-Este painel permite a visualização do **Acompanhamento do Atendimento de Frentes de Serviços**, considerando a demanda diária determinística calculada pelo DELFOS.   
+Este painel permite a visualização do **Acompanhamento do Atendimento e Capacidade de Frentes de Serviços**, considerando a demanda diária determinística calculada pelo DELFOS.
 
 Nesta tela, é exibida uma tabela contendo as seguintes informações:  
 

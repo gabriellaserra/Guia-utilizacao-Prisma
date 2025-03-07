@@ -3,7 +3,7 @@
 
 Este painel permite a visualização do **Acompanhamento Contratual de Bens e Serviços** realizado no CROSS.  
 
-Nesta tela, é exibido um cronograma em formato Gantt não editável, no qual são representadas as **Linhas de Acompanhamento Contratual (LAC)** e os **Grupos de Acompanhamento Contratual (GAC)**, juntamente com seus respectivos atendimentos.  
+Nesta tela, é exibido um cronograma em formato Gantt não editável, no qual são representadas as **Linhas de Acompanhamento Contratual (LAC)** e os **Grupos de Acompanhamento Contratual (GAC)**, juntamente com seus respectivos atendimentos contratuais.
 
 ## Funcionalidades
 
