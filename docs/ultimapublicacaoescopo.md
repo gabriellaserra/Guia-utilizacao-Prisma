@@ -3,7 +3,7 @@
 
 Permite visualizar a **Última Publicação de Escopo** disponível no CW Recursos, que é uma "foto" oficial tirada quinzenalmente do cronograma. As cores indicam o nível de atendimento de Recursos (materiais e serviços).  
 
-Nesta interface, é exibido um cronograma em formato Gantt não editável, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  
+Nesta tela, é exibido um cronograma em formato Gantt não editável, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  
 
 A cor das tarefas varia conforme o atendimento por ID Recurso, refletindo o pior caso entre as atividades nos seguintes status:
 
@@ -27,7 +27,7 @@ Permite visualizar informações detalhadas ao clicar sobre uma alocação. As s
 
 - Atendimento: apresenta informações sobre as atividades e recursos envolvidos.  
 
-### Incluir Contingentes
+### Incluir contingentes
 ![alt text](icons/incluir_contingente.svg)
 
 Permite visualizar a tabela com os recursos contingentes.  

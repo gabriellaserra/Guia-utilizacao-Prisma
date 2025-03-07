@@ -1,4 +1,4 @@
-# Abrir Cenário
+# Abrir cenário
 
 Esta tela permite visualizar a **lista de cenários** criados pelo usuário, bem como aqueles aos quais ele tem acesso.  
 
@@ -8,7 +8,7 @@ Para abrir um cenário, basta **clicar sobre a linha correspondente**.
 
 ## Funcionalidades
 
-### Visualizar Cenário
+### Visualizar cenário
 ![alt text](icons/informacao.svg)
 
 Permite acessar informações detalhadas sobre o cenário.  

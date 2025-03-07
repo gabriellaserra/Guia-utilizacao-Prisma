@@ -3,7 +3,7 @@
 
 Este painel permite a visualização das **Respostas de Prontidão** registradas no PRONT.  
 
-Nesta interface, é exibido um cronograma em formato Gantt não editável, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  
+Nesta tela, é exibido um cronograma em formato Gantt não editável, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  
 
 A cor das tarefas varia conforme a resposta de prontidão, refletindo o pior caso entre as respostas do grupo.  
 

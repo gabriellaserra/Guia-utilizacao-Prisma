@@ -4,7 +4,7 @@ Este painel permite visualizar a **Demanda e Oferta** de um ou mais materiais.
 
 O objetivo deste painel é proporcionar mais clareza e transparência na análise do **atendimento de materiais**. 
 
-Nesta interface, são exibidas as seções de **Demanda** e **Oferta**, com as seguintes informações:  
+Nesta tela, são exibidas as seções de **Demanda** e **Oferta**, com as seguintes informações:  
 
 ## Demanda
 <small>Integrado com </small> ![alt text](tags/tag_cw_recursos.svg)
@@ -63,12 +63,12 @@ Exibe a lista de **ofertas** dos materiais. As informações incluem:
 
 ## Funcionalidades
 
-### Incluir Contingentes
+### Incluir contingentes
 ![alt text](icons/incluir_contingente.svg)
 
 Permite visualizar a tabela com os recursos contingentes.  
 
-### Selecionar Recurso
+### Selecionar recurso
 ![alt text](icons/material.svg)
 
 Permite alterar os materiais que estão sendo visualizados. 

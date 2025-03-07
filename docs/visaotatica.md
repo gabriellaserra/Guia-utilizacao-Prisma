@@ -1,9 +1,9 @@
-# Visão Médio Prazo
+# Visão Tática
 <small>Integrado com </small> ![alt text](tags/tag_delfos.svg) ![alt text](tags/tag_arvore_recursos.svg)
 
 Este painel permite a visualização do **Acompanhamento do Atendimento de Frentes de Serviços**, considerando a demanda diária determinística calculada pelo DELFOS.   
 
-Nesta interface, é exibida uma tabela contendo as seguintes informações:  
+Nesta tela, é exibida uma tabela contendo as seguintes informações:  
 
 - Atendimento Padrão da Premissa 
 ![delfos_24x24.svg](icons/delfos_24x24.svg)
@@ -24,7 +24,7 @@ Nesta interface, é exibida uma tabela contendo as seguintes informações:
 
 ## Funcionalidades
 
-### Incluir Contingentes
+### Incluir contingentes
 ![alt text](icons/incluir_contingente.svg)
   
 Permite visualizar a tabela com os recursos contingentes.  

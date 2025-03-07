@@ -1,4 +1,4 @@
-# Gerar Cenário
+# Gerar cenário
 
 Esta tela permite a criação de um **novo cenário**.  
 
@@ -17,7 +17,7 @@ Todos os cenários são criados a partir do **dia 01 do mês corrente**.
 
 ## Funcionalidade
 
-### Criar Cenário
+### Criar cenário
 Permite gerar um novo cenário de estudo, possibilitando a simulação de alternativas de cronograma em um ambiente exclusivo, sem impactar os dados oficiais. 
 
 ![alt text](imagens/gerar_cenario.png)

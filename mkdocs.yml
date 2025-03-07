@@ -33,9 +33,9 @@ nav:
     - 'Painel de Serviços': 'painelservicos.md'
     - 'Painel de Materiais': 'painelmateriais.md'
   - Painel de Publicações: 'publicacoes.md'
-  - Visão operacional: 'visaooperacional.md'
-  - Visão médio-prazo: 'visaomedioprazo.md'
-  - Visão contratual: 'visaocontratual.md'
+  - Visão Operacional: 'visaooperacional.md'
+  - Visão Tática: 'visaotatica.md'
+  - Visão Contratual: 'visaocontratual.md'
 extra_css:
   - css/extra.css
 plugins:

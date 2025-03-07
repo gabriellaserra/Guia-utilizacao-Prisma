@@ -2,7 +2,7 @@
 
 Permite visualizar o **cenário para estudo**. As cores indicam o nível de atendimento de Recursos (materiais e serviços).  
 
-Nesta interface, é exibido um cronograma em formato Gantt editável, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  
+Nesta tela, é exibido um cronograma em formato Gantt editável, onde são representadas as sondas e suas respectivas alocações, que podem ser tarefas ou eventos.  
 
 A cor das tarefas varia conforme o atendimento por ID Recurso, refletindo o pior caso entre as atividades nos seguintes status: 
 

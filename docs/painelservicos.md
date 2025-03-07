@@ -4,7 +4,7 @@ Este painel permite visualizar a **Demanda e Oferta** de um serviço.
 
 O objetivo deste painel é proporcionar mais clareza e transparência na análise do **atendimento de serviços**.  
 
-Nesta interface, são exibidas as seções de **Demanda** e **Oferta**, com as seguintes informações:  
+Nesta tela, são exibidas as seções de **Demanda** e **Oferta**, com as seguintes informações:  
 
 ## Demanda
 <small>Integrado com </small> ![alt text](tags/tag_cw_recursos.svg)
@@ -46,12 +46,12 @@ Exibe a lista de **disponibilidade** dos serviços. As informações incluem:
 
 ## Funcionalidades
 
-### Incluir Contingentes
+### Incluir contingentes
 ![alt text](icons/incluir_contingente.svg)
 
 Permite visualizar a tabela com os recursos contingentes.  
 
-### Selecionar Recurso
+### Selecionar recurso
 ![alt text](icons/servico.svg)
 
 Permite alterar o serviço que está sendo visualizado.  
