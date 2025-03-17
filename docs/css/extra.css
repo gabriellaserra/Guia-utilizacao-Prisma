@@ -12,12 +12,15 @@ input.md-search__input::placeholder {
   opacity: 1;
 }
 
-input.md-search__icon {
-  color: #757575;
-  opacity: 1;
+.md-search__icon svg {
+  fill: #757575 !important; 
 }
 
-div.md-search{
-  color: white;
+.md-search__input {
+  background-color: white !important;
+  color: black !important; 
+  border: 1px solid #757575 !important;
+  border-radius: 4px;
+  padding: 5px;
 }
 
