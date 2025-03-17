@@ -12,4 +12,12 @@ input.md-search__input::placeholder {
   opacity: 1;
 }
 
+input.md-search__icon {
+  color: #757575;
+  opacity: 1;
+}
+
+div.md-search{
+  color: white;
+}
 
