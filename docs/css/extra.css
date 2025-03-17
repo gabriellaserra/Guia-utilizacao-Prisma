@@ -8,7 +8,7 @@
 }
 
 input.md-search__input::placeholder {
-  color: white !important;
+  color: #757575;
   opacity: 1;
 }
 
