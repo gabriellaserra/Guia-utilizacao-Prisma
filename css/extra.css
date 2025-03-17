@@ -8,8 +8,16 @@
 }
 
 input.md-search__input::placeholder {
-  color: white !important;
+  color: #757575;
   opacity: 1;
 }
 
+input.md-search__icon {
+  color: #757575;
+  opacity: 1;
+}
+
+div.md-search{
+  color: white;
+}
 
