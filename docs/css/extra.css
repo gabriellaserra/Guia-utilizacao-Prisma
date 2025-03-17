@@ -8,7 +8,7 @@
 }
 
 .md-search__input {
-  color: white;
-  font-size: .8rem;
+  color: white !important;
+  
 }
 
